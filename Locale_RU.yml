@@ -81,6 +81,7 @@ info:
     время как DisableTeamManagement установлена на true!'
   ModuleNotEnabled: '&cЭтот модуль не включен!'
   versionNotSupported: '&cВерсия сервера не поддерживается для этой функции'
+  spigotNotSupported: '&cYou need Paper branch type server'
   bungeeNoGo: '&cЭта функция не будет работать на серверах, связанных с bungee'
   clickToTeleport: '&eНажмите, чтобы телепортироваться'
   UseMaterial: '&4Пожалуйста, используйте названия материалов!'
@@ -301,6 +302,8 @@ info:
   valueToShort: '&eЗначение слишком низкое. Минимум: [min]'
   pvp:
     noGodDamage: '!actionbar!&cВы не можете нанести урон игрокам, будучи бессмертным'
+  pve:
+    noGodDamage: '!actionbar!&cВы не можете нанести урон мобам в режиме бога'
   InvEmpty:
     armor: '&eВаши слоты брони должны быть пустыми!'
     hand: '&eВаша рука должна быть пустой!'
@@ -322,7 +325,7 @@ info:
     custom: Неизвестно
     dragon_breath: Дыхание дракона
     drowning: Утопление
-    dryout: dryout
+    dryout: Засыхание
     entity_attack: Атака сущностей
     entity_explosion: Взрыв
     entity_sweep_attack: Атака снарядов
@@ -331,7 +334,7 @@ info:
     fire: Огонь
     fire_tick: Огонь
     fly_into_wall: Полет в стене
-    freeze: freeze
+    freeze: замерзание
     hot_floor: Магма блок
     lava: Лава
     lightning: Молния
@@ -367,7 +370,7 @@ info:
     DESERT: Пустыня
     DESERT_HILLS: Пустынные холмы
     DESERT_LAKES: Озера пустыни
-    DRIPSTONE_CAVES: Dripstone caves
+    DRIPSTONE_CAVES: Капельные пещеры
     END_BARRENS: Конец пустоши
     END_HIGHLANDS: Конец нагорья
     END_MIDLANDS: Конец Мидлендс
@@ -386,7 +389,7 @@ info:
     JUNGLE_EDGE: Край джунглей
     JUNGLE_HILLS: Холмы джунглей
     LUKEWARM_OCEAN: Теплый океан
-    LUSH_CAVES: Lush caves
+    LUSH_CAVES: Роскошные пещеры
     MODIFIED_BADLANDS_PLATEAU: Модифицированное плато бесплодных земель
     MODIFIED_GRAVELLY_MOUNTAINS: Модифицированные гравийные горы
     MODIFIED_JUNGLE: Модифицированные джунгли
@@ -434,7 +437,7 @@ info:
     arrow: Стрела
     axolotl: Аксолотль
     bat: Летучая мышь
-    bee: Bee
+    bee: Пчела
     blaze: Ифрит
     boat: Лодка
     cat: Кот
@@ -481,7 +484,7 @@ info:
     llama: Лама
     llama_spit: Плювок ламы
     magma_cube: Лавовый куб
-    marker: Marker
+    marker: Маркер
     minecart: Вагонетка
     minecart_chest: Грузовая вагонетка
     minecart_command: Командная вагонетка
@@ -493,7 +496,7 @@ info:
     mushroom_cow: Грибная корова
     ocelot: Оцелот
     painting: Картина
-    panda: Panda
+    panda: Панда
     parrot: Попугай
     phantom: Фантом
     pig: Свинья
@@ -560,6 +563,8 @@ info:
     - Верность
     depth_strider:
     - Подводная_ходьба
+    glow:
+    - Свечение
     vanishing_curse:
     - Проклятье_утраты
     durability:
@@ -591,11 +596,11 @@ info:
     damage_undead:
     - Небесная_кара
     multishot:
-    - Multishot
+    - Мультишот
     fire_aspect:
     - Заговор_огня
     channeling:
-    - Channeling
+    - Ченнелинг
     sweeping_edge:
     - Разящий_клинок
     thorns:
@@ -709,7 +714,7 @@ modify:
   addSymbol: '&2[+]'
   addSymbolHover: '&2Добавить новый'
   cancelSymbol: ' &7&l[X]'
-  cancelSymbolHover: '&aCancel'
+  cancelSymbolHover: '&aОтмена'
   acceptSymbol: ' &2&l[✓]'
   acceptSymbolHover: '&aПринять'
   denySymbol: ' &4&l[✘]'
@@ -826,6 +831,14 @@ Location:
   Z: '&eZ: &6[z]'
   Pitch: '&eВысота: &6[pitch]'
   Yaw: '&eАзимут: &6[yaw]'
+  # Mainly used in %cmi_user_world_formatted% placeholder
+  WorldNames:
+  - world-&2Мир
+  - world_nether-&2Ад
+  - world_the_end-&2Эндер-мир
+  - bskyblock_world_nether-&2Bskyblock World Nether
+  - bskyblock_world_the_end-&2Bskyblock World The End
+  - bskyblock_world-&2Bskyblock World
 Locations: '&7Локация: '
 Ender:
   Title: '&7Открыть сундук эндера'
