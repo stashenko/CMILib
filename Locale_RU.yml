@@ -836,9 +836,6 @@ Location:
   - world-&2Мир
   - world_nether-&2Ад
   - world_the_end-&2Эндер-мир
-  - bskyblock_world_nether-&2Bskyblock World Nether
-  - bskyblock_world_the_end-&2Bskyblock World The End
-  - bskyblock_world-&2Bskyblock World
 Locations: '&7Локация: '
 Ender:
   Title: '&7Открыть сундук эндера'
