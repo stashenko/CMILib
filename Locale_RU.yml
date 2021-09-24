@@ -81,7 +81,7 @@ info:
     время как DisableTeamManagement установлена на true!'
   ModuleNotEnabled: '&cЭтот модуль не включен!'
   versionNotSupported: '&cВерсия сервера не поддерживается для этой функции'
-  spigotNotSupported: '&cYou need Paper branch type server'
+  spigotNotSupported: '&cВам нужено ядро сервера Paper'
   bungeeNoGo: '&cЭта функция не будет работать на серверах, связанных с bungee'
   clickToTeleport: '&eНажмите, чтобы телепортироваться'
   UseMaterial: '&4Пожалуйста, используйте названия материалов!'
