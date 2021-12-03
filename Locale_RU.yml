@@ -65,20 +65,11 @@ info:
   FromConsole: '&cВы можете использовать это только из консоли!'
   NotOnline: '&cИгрок не в сети!'
   NobodyOnline: '&cНет никого в сети!'
-  Same: '&cНе удалось открыть собственный инвентарь для редактирования!'
-  cantLoginWithDifCap: '&cНе удалось войти под другим ником! Старый ник: &e[oldName]&c.
-    Текущий: &e[currentName]'
-  Searching: '&eПоиск данных игрока, пожалуйста, подождите, это может занять некоторое
-    время!'
   NoPlayer: '&cНе удалось найти игрока с таким ником!'
   NoCommand: '&cКоманды с этим названием не существует!'
-  NoCommandWhileSleeping: '&cНельзя выполнять команды во время сна!'
   cantFindCommand: '&5Команда &7[%1]&5 не была найдена, возможно вы имели в виду &7[%2]&5?'
   nolocation: '&4Не могу найти подходящее место'
-  PurgeNotEnabled: '&cФункция очистки не включена в конфигурации!'
   FeatureNotEnabled: '&cЭта функция не включена!'
-  TeamManagementDisabled: '&7Эта функция будет иметь ограниченный функционал, в то
-    время как DisableTeamManagement установлена на true!'
   ModuleNotEnabled: '&cЭтот модуль не включен!'
   versionNotSupported: '&cВерсия сервера не поддерживается для этой функции'
   spigotNotSupported: '&cВам нужено ядро сервера Paper'
@@ -90,10 +81,128 @@ info:
   UseBoolean: '&4Пожалуйста, используйте значения True или False!'
   NoLessThan: '&4Число не может быть меньше чем [amount]!'
   NoMoreThan: '&4Значение не может быть больше чем [amount]'
-  NoGameMode: '&cПожалуйста, используйте значения 0/1/2/3 или Survival/Creative/Adventure/Spectator
-    или s/c/a/sp!'
   NoWorld: '&4Не удалось найти мир с этим названием!'
   IncorrectLocation: '&4Местоположение определено неправильно!'
+  Show: '&eПоказать'
+  Remove: '&cУдалить'
+  Back: '&eНазад'
+  Forward: '&eВперед'
+  Update: '&eОбновить'
+  Save: '&eСохранить'
+  Delete: '&cУдалить'
+  Click: '&eКлик'
+  Preview: '&eПредпросмотр'
+  PasteOld: '&eВставить старый текст'
+  ClickToPaste: '&eНажмите, чтобы вставить в чат'
+  CantTeleportWorld: '&eВы не можете телепортироваться в этот мир'
+  CantTeleportNoWorld: '&cВыбраный мир не существует. Телепортация отменена.'
+  ClickToConfirmDelete: '&eНажмите для удаления &6[name]'
+  teleported: '&eВы были телепортированы.'
+  PlayerSpliter: '&e----- &6[playerDisplayName] &e-----'
+  Spliter: '&e--------------------------------------------------'
+  SpliterValue: '&e------------------ &6[value] &e------------------'
+  singleSpliter: '&e-'
+  SpliterMiddle: ' &6[value] '
+  ListSpliter: ', '
+  ProgressBarFill: '&2▏'
+  ProgressBarEmpty: '&e▏'
+  nothingInHand: '!actionbar!&eВам нужно держать предмет в руке'
+  nothingInHandLeather: '&eВам нужно держать кожу в руке'
+  nothingToShow: '&eНечего показать'
+  noItem: '&cНе удалось найти предмет'
+  dontHaveItem: '&cУ вас нет &6[amount]x [itemName] &cв вашем инвентаре'
+  wrongWorld: '&cНе удалось сделать это в этом мире'
+  differentWorld: '&cРазличные миры'
+  HaveItem: '&cУ вас есть &6[amount]x [itemName] &cв вашем инвентаре'
+  cantDoInGamemode: '&eВ данном игровом режиме эта возможность отключена'
+  cantDoForPlayer: '&eВы не можете сделать это игроку &6[playerDisplayName]'
+  cantDoForYourSelf: '&eВы не можете сделать это с собой'
+  cantDetermineMobType: '&cНе удалось определить тип моба из &e[type] &eдоступных'
+  cantRename: '!actionbar!&eВы не можете переименовать предмет на это имя!'
+  confirmRedefine: '&eНажмите, чтобы подтвердить переопределение'
+  cantEdit: '&eВы не можете редактировать это'
+  wrongName: '&cНеправильное имя'
+  unknown: unknown
+  invalidName: '&cНеверное имя'
+  alreadyexist: '&4Это имя занято'
+  dontexist: '&4Ничего не найдено под этим именем'
+  worldDontExist: '&cУказанный мир больше недоступен. Не удалось телепортировать вас
+    туда!'
+  notSet: не установлено
+  lookAtSign: '&eПосмотрите на табличку'
+  lookAtBlock: '&eПосмотрите на блок'
+  lookAtEntity: '&eПосмотрите на сущность'
+  noSpace: '&eНедостаточно места'
+  notOnGround: '&eВы не можете выполнить это во время полета'
+  bungee:
+    Online: '&6Онлайн'
+    Offline: '&cОффлайн'
+    not: '&cСервер не подключен к BungeeCord'
+    noserver: '&cНе удалось найти сервер с таким названием!'
+    server: '&eСервер: &7[name]'
+  variables:
+    am: '&eAM'
+    pm: '&ePM'
+    Online: '&6Онлайн'
+    Offline: '&cОффлайн'
+    TrueColor: '&2'
+    FalseColor: '&4'
+    'True': '&6ВКЛ'
+    'False': '&4ВЫКЛ'
+    Enabled: '&6Включено'
+    Disabled: '&cВыключено'
+    survival: '&6Выживание'
+    creative: '&6Креатив'
+    adventure: '&6Приключение'
+    spectator: '&6Наблюдение'
+    flying: '&6Летает'
+    notflying: '&6Не летает'
+  Inventory:
+    FullDrop: '&5Некоторые вещи не поместились. Они лежат на земле.'
+  TimeNotRecorded: '&e-Нет записей-'
+  years: '&e[years] &6л. '
+  oneYear: '&e[years] &6г. '
+  day: '&e[days] &6д. '
+  oneDay: '&e[days] &6д. '
+  hour: '&e[hours] &6ч. '
+  oneHour: '&e[hours] &6ч. '
+  min: '&e[mins] &6м. '
+  sec: '&e[secs] &6с. '
+  nextPageConsole: '&fДля следующей страницы выполните &5[command]'
+  prevPage: '&2-----------------<< &6Назад '
+  prevPageGui: '&6Предыдущая страница '
+  prevPageClean: '&6Предыдущая '
+  prevPageOff: '&2-----------------<< &7Назад '
+  prevPageHover: '&7<<<'
+  firstPageHover: '&7|<'
+  nextPage: '&6 Далее &2>>-----------------'
+  nextPageGui: '&6Следующая страница'
+  nextPageClean: '&6 Следующая'
+  nextPageOff: '&7 Далее &2>>-----------------'
+  nextPageHover: '&7>>>'
+  lastPageHover: '&7>|'
+  pageCount: '&2[current]&7/&2[total]'
+  pageCountHover: '&e[totalEntries] записей'
+  skullOwner: '!actionbar!&7Владелец:&r [playerName]'
+  circle: '&3Круг'
+  square: '&5Площадь'
+  clear: '&7Clear'
+  protectedArea: '&cДанная территория защищена. Не удалось сделать это здесь.'
+  valueToLong: '&eЗначение слишком высокое. Максимум: [max]'
+  valueToShort: '&eЗначение слишком низкое. Минимум: [min]'
+  pickIcon: '&8Выберите значок'
+  # Following locale lines got moved to CMI folder and will be removed in future updates from this file. If you want to modify those lines check CMI locale directory
+  Same: '&cНе удалось открыть собственный инвентарь для редактирования!'
+  cantLoginWithDifCap: '&cНе удалось войти под другим ником! Старый ник: &e[oldName]&c.
+    Текущий: &e[currentName]'
+  Searching: '&eПоиск данных игрока, пожалуйста, подождите, это может занять некоторое
+    время!'
+  NoCommandWhileSleeping: '&cНельзя выполнять команды во время сна!'
+  PurgeNotEnabled: '&cФункция очистки не включена в конфигурации!'
+  TeamManagementDisabled: '&7Эта функция будет иметь ограниченный функционал, в то
+    время как DisableTeamManagement установлена на true!'
+  NoGameMode: '&cПожалуйста, используйте значения 0/1/2/3 или Survival/Creative/Adventure/Spectator
+    или s/c/a/sp!'
   NameChange: '&eИгрок &6[playerDisplayName] &eзашел на сервер, также известный как:
     &6[namelist]'
   Cooldowns: '&eЭта команда перезаряжается, подождите &6[time]'
@@ -118,63 +227,17 @@ info:
     Минимальное расстояние: (&6[range]&e)'
   ChunksLoading: '&eДанные чанков мира все еще загружаются. Пожалуйста, подождите
     немного и попробуйте снова.'
-  ShulkerBox: Коробка шалкера
   CantUseNonEncrypted: '!actionbar!&cКоманды для этого предмета не зашифрованы. Не
     удалось использовать их!'
   CantDecode: '!actionbar!&cНе удалось декодировать сообщение/команду. Файл ключа
     содержит неверный ключ для этой задачи. Сообщите об этом администрации сервера'
-  Show: '&eПоказать'
-  Remove: '&cУдалить'
-  Back: '&eНазад'
-  Forward: '&eВперед'
-  Update: '&eОбновить'
-  Save: '&eСохранить'
-  Delete: '&cУдалить'
-  Click: '&eКлик'
-  Preview: '&eПредпросмотр'
-  PasteOld: '&eВставить старый текст'
-  ClickToPaste: '&eНажмите, чтобы вставить в чат'
-  CantTeleportWorld: '&eВы не можете телепортироваться в этот мир'
-  CantTeleportNoWorld: '&cВыбраный мир не существует. Телепортация отменена.'
   CantTeleport: '&eВы не можете телепортироваться, потому что у вас слишком много
     ограниченных предметов. Прокрутите эту строку, чтобы увидеть максимально допустимое
     количество предметов.'
-  ClickToConfirmDelete: '&eНажмите для удаления &6[name]'
-  teleported: '&eВы были телепортированы.'
   BlackList: '&e[material] [amount] &6Максимум: [max]'
-  PlayerSpliter: '&e----- &6[playerDisplayName] &e-----'
-  Spliter: '&e--------------------------------------------------'
-  SpliterValue: '&e------------------ &6[value] &e------------------'
-  singleSpliter: '&e-'
-  SpliterMiddle: ' &6[value] '
-  ListSpliter: ', '
-  ProgressBarFill: '&2▏'
-  ProgressBarEmpty: '&e▏'
-  nothingInHand: '!actionbar!&eВам нужно держать предмет в руке'
-  nothingInHandLeather: '&eВам нужно держать кожу в руке'
-  nothingToShow: '&eНечего показать'
-  noItem: '&cНе удалось найти предмет'
-  dontHaveItem: '&cУ вас нет &6[amount]x [itemName] &cв вашем инвентаре'
-  wrongWorld: '&cНе удалось сделать это в этом мире'
   wrongPortal: '&cВы находитесь в недопустимой зоне'
-  differentWorld: '&cРазличные миры'
-  HaveItem: '&cУ вас есть &6[amount]x [itemName] &cв вашем инвентаре'
   ItemWillBreak: '!actionbar!&eВаш предмет (&6[itemName]&e) скоро сломается! &e[current]&6/&e[max]'
   ArmorWillBreak: '!actionbar!&eВаш предмет [itemName] скоро сломается! &e[current]&6/&e[max]'
-  cantDoInGamemode: '&eВ данном игровом режиме эта возможность отключена'
-  cantDoForPlayer: '&eВы не можете сделать это игроку &6[playerDisplayName]'
-  cantDoForYourSelf: '&eВы не можете сделать это с собой'
-  cantDetermineMobType: '&cНе удалось определить тип моба из &e[type] &eдоступных'
-  cantRename: '!actionbar!&eВы не можете переименовать предмет на это имя!'
-  confirmRedefine: '&eНажмите, чтобы подтвердить переопределение'
-  cantEdit: '&eВы не можете редактировать это'
-  wrongName: '&cНеправильное имя'
-  unknown: unknown
-  invalidName: '&cНеверное имя'
-  alreadyexist: '&4Это имя занято'
-  dontexist: '&4Ничего не найдено под этим именем'
-  worldDontExist: '&cУказанный мир больше недоступен. Не удалось телепортировать вас
-    туда!'
   flyingToHigh: '&cВы не можете летать так высоко, максимальная высота &6[max]&c!'
   specializedItemFail: '&cНе удалось определить требование к специализированному предмету
     по значению: &7[value]'
@@ -187,7 +250,6 @@ info:
   repairConfirm: '&eНажмите, чтобы подтвердить починку предмета &7[items] &eза &7[cost]'
   bookDate: '&7Написано в &f[date]'
   maintenance: '&7Технический режим'
-  notSet: не установлено
   mapLimit: '&cНевозможно выйти за пределы 30 000 000 блоков'
   startedEditingPainting: '&eВы включили режим редактирования картины. Нажмите на
     любой другой блок, чтобы отменить.'
@@ -197,11 +259,6 @@ info:
   noCmdSpam: '!title!&cНе спамьте командами!'
   spamConsoleInform: '&cИгрок (&7[playerName]&c) спровоцировал (&7[rules]&c) чат фильтр:&r
     [message]'
-  lookAtSign: '&eПосмотрите на табличку'
-  lookAtBlock: '&eПосмотрите на блок'
-  lookAtEntity: '&eПосмотрите на сущность'
-  noSpace: '&eНедостаточно места'
-  notOnGround: '&eВы не можете выполнить это во время полета'
   # This line can have extra variables: [totalUsers] [onlinePlayers]
   FirstJoin: '&6[playerDisplayName] &3добро пожаловать на сервер!'
   LogoutCustom: ' &6[playerDisplayName] &4покинул игру'
@@ -214,36 +271,11 @@ info:
     CantUseCommand: '!actionbar!&cНельзя использовать команды во время боя. Жди: [time]'
     bossBarPvp: '&cРежим боя [autoTimeLeft]'
     bossBarPve: '&2Режим боя [autoTimeLeft]'
-  bungee:
-    Online: '&6Онлайн'
-    Offline: '&cОффлайн'
-    not: '&cСервер не подключен к BungeeCord'
-    noserver: '&cНе удалось найти сервер с таким названием!'
-    server: '&eСервер: &7[name]'
-  variables:
-    am: '&eAM'
-    pm: '&ePM'
-    Online: '&6Онлайн'
-    Offline: '&cОффлайн'
-    TrueColor: '&2'
-    FalseColor: '&4'
-    'True': '&6ВКЛ'
-    'False': '&4ВЫКЛ'
-    Enabled: '&6Включено'
-    Disabled: '&cВыключено'
-    survival: '&6Выживание'
-    creative: '&6Креатив'
-    adventure: '&6Приключение'
-    spectator: '&6Наблюдение'
-    flying: '&6Летает'
-    notflying: '&6Не летает'
   noSchedule: '&cРасписание по этому имени не найдено'
   totem:
     cooldown: '&eЗадержка тотема: [time]'
     warmup: '&eЭффект тотема: [time]'
     cantConsume: '&eИспользование тотема невозможно из-за перезарядки'
-  Inventory:
-    FullDrop: '&5Некоторые вещи не поместились. Они лежат на земле.'
   InventorySave:
     info: '&8Информация: &8[playerDisplayName]'
     saved: '&e[time] &eИнвентарь сохранен с ID: &e[id]'
@@ -264,42 +296,11 @@ info:
     PreviousInventory: '&eПредыдущий инвентарь'
     Editable: '&eРежим редактирования включен'
     NonEditable: '&eРежим редактирования отключен'
-  TimeNotRecorded: '&e-Нет записей-'
-  years: '&e[years] &6л. '
-  oneYear: '&e[years] &6г. '
-  day: '&e[days] &6д. '
-  oneDay: '&e[days] &6д. '
-  hour: '&e[hours] &6ч. '
-  oneHour: '&e[hours] &6ч. '
-  min: '&e[mins] &6м. '
-  sec: '&e[secs] &6с. '
   vanishSymbolOn: '&6[&7СКРЫТ&6]&r'
   vanishSymbolOff: ''
   afkSymbolOn: '&f☕'
   afkSymbolOff: ''
-  nextPageConsole: '&fДля следующей страницы выполните &5[command]'
-  prevPage: '&2-----------------<< &6Назад '
-  prevPageGui: '&6Предыдущая страница '
-  prevPageClean: '&6Предыдущая '
-  prevPageOff: '&2-----------------<< &7Назад '
-  prevPageHover: '&7<<<'
-  firstPageHover: '&7|<'
-  nextPage: '&6 Далее &2>>-----------------'
-  nextPageGui: '&6Следующая страница'
-  nextPageClean: '&6 Следующая'
-  nextPageOff: '&7 Далее &2>>-----------------'
-  nextPageHover: '&7>>>'
-  lastPageHover: '&7>|'
-  pageCount: '&2[current]&7/&2[total]'
-  pageCountHover: '&e[totalEntries] записей'
-  skullOwner: '!actionbar!&7Владелец:&r [playerName]'
   beeinfo: '!actionbar!&7Уровень мёда: &e[level]&7/&e[maxlevel] &7Пчел внутри: &e[count]&7/&e[maxcount]'
-  circle: '&3Круг'
-  square: '&5Площадь'
-  clear: '&7Clear'
-  protectedArea: '&cДанная территория защищена. Не удалось сделать это здесь.'
-  valueToLong: '&eЗначение слишком высокое. Максимум: [max]'
-  valueToShort: '&eЗначение слишком низкое. Минимум: [min]'
   pvp:
     noGodDamage: '!actionbar!&cВы не можете нанести урон игрокам, будучи бессмертным'
   pve:
@@ -317,7 +318,6 @@ info:
     subinv: '&eВаш суб инвентарь должен быть пустым!'
     subinvslots: '&eВаш суб инвентарь должен иметь как минимум &6[count] &eпустых
       слотов!'
-  pickIcon: '&8Выберите значок'
   DamageCause:
     block_explosion: Взрыв
     contact: Блокирование повреждений
@@ -350,26 +350,19 @@ info:
     wither: Иссушитель
   Biomes:
     BADLANDS: Бесплодные земли
-    BADLANDS_PLATEAU: Плато бесплодных земель
     BAMBOO_JUNGLE: Бамбуковые джунгли
-    BAMBOO_JUNGLE_HILLS: Бамбуковые холмы в джунглях
     BASALT_DELTAS: Базальтовые дельты
     BEACH: Пляж
     BIRCH_FOREST: Березовый лес
-    BIRCH_FOREST_HILLS: Березовые лесные холмы
     COLD_OCEAN: Холодный океан
     CRIMSON_FOREST: Багровый лес
     CUSTOM: Кастом
     DARK_FOREST: Темный лес
-    DARK_FOREST_HILLS: Темные лесные холмы
     DEEP_COLD_OCEAN: Глубокий холодный океан
     DEEP_FROZEN_OCEAN: Глубоко замороженный океан
     DEEP_LUKEWARM_OCEAN: Глубокий теплый океан
     DEEP_OCEAN: Глубокий океан
-    DEEP_WARM_OCEAN: Глубокий теплый океан
     DESERT: Пустыня
-    DESERT_HILLS: Пустынные холмы
-    DESERT_LAKES: Озера пустыни
     DRIPSTONE_CAVES: Капельные пещеры
     END_BARRENS: Конец пустоши
     END_HIGHLANDS: Конец нагорья
@@ -378,59 +371,46 @@ info:
     FLOWER_FOREST: Цветочный лес
     FOREST: Лес
     FROZEN_OCEAN: Замерзший океан
+    FROZEN_PEAKS: Frozen peaks
     FROZEN_RIVER: Замерзшая река
-    GIANT_SPRUCE_TAIGA: Гигантская еловая тайга
-    GIANT_SPRUCE_TAIGA_HILLS: Гиганские таежные еловые холмы
-    GIANT_TREE_TAIGA: Гиганские леса тайги
-    GIANT_TREE_TAIGA_HILLS: Гигантскин лесные таёжные холмы
-    GRAVELLY_MOUNTAINS: Гравийные горы
+    GROVE: Grove
     ICE_SPIKES: Ледяные шипы
+    JAGGED_PEAKS: Jagged peaks
     JUNGLE: Джунгли
-    JUNGLE_EDGE: Край джунглей
-    JUNGLE_HILLS: Холмы джунглей
     LUKEWARM_OCEAN: Теплый океан
     LUSH_CAVES: Роскошные пещеры
-    MODIFIED_BADLANDS_PLATEAU: Модифицированное плато бесплодных земель
-    MODIFIED_GRAVELLY_MOUNTAINS: Модифицированные гравийные горы
-    MODIFIED_JUNGLE: Модифицированные джунгли
-    MODIFIED_JUNGLE_EDGE: Измененный край джунглей
-    MODIFIED_WOODED_BADLANDS_PLATEAU: Модифицированное плато лесных бесплодных земель
-    MOUNTAINS: Горы
-    MOUNTAIN_EDGE: Край горы
+    MEADOW: Meadow
     MUSHROOM_FIELDS: Грибные поля
-    MUSHROOM_FIELD_SHORE: Берег грибного поля
     NETHER_WASTES: Незер отходы
     OCEAN: Океан
+    OLD_GROWTH_BIRCH_FOREST: Old growth birch forest
+    OLD_GROWTH_PINE_TAIGA: Old growth pine taiga
+    OLD_GROWTH_SPRUCE_TAIGA: Old growth spruce taiga
     PLAINS: Равнины
     RIVER: Река
     SAVANNA: Саванна
     SAVANNA_PLATEAU: Плато саванны
-    SHATTERED_SAVANNA: Разрушенная саванна
-    SHATTERED_SAVANNA_PLATEAU: Плато разрушенной саванны
     SMALL_END_ISLANDS: Малые энд острова
     SNOWY_BEACH: Снежный пляж
-    SNOWY_MOUNTAINS: Снежные горы
+    SNOWY_PLAINS: Snowy plains
+    SNOWY_SLOPES: Snowy slopes
     SNOWY_TAIGA: Снежная тайга
-    SNOWY_TAIGA_HILLS: Снежные таежные холмы
-    SNOWY_TAIGA_MOUNTAINS: Снежные таежные горы
-    SNOWY_TUNDRA: Снежная тундра
     SOUL_SAND_VALLEY: Долина песка души
-    STONE_SHORE: Каменный берег
+    SPARSE_JUNGLE: Sparse jungle
+    STONY_PEAKS: Stony peaks
+    STONY_SHORE: Stony shore
     SUNFLOWER_PLAINS: Подсолнечные равнины
     SWAMP: Болото
-    SWAMP_HILLS: Болотные холмы
     TAIGA: Тайга
-    TAIGA_HILLS: Таёжные холмы
-    TAIGA_MOUNTAINS: Таёжные горы
-    TALL_BIRCH_FOREST: Высокий березовый лес
-    TALL_BIRCH_HILLS: Березовая роща
     THE_END: Энд
     THE_VOID: Пустота
     WARM_OCEAN: Теплый океан
     WARPED_FOREST: Искаженный лес
-    WOODED_BADLANDS_PLATEAU: Бесплодные земли
-    WOODED_HILLS: Лесистые холмы
-    WOODED_MOUNTAINS: Лесистые горы
+    WINDSWEPT_FOREST: Windswept forest
+    WINDSWEPT_GRAVELLY_HILLS: Windswept gravelly hills
+    WINDSWEPT_HILLS: Windswept hills
+    WINDSWEPT_SAVANNA: Windswept savanna
+    WOODED_BADLANDS: Wooded badlands
   EntityType:
     area_effect_cloud: Облако эффектов
     armor_stand: Стойка для брони
@@ -563,8 +543,6 @@ info:
     - Верность
     depth_strider:
     - Подводная_ходьба
-    glow:
-    - Свечение
     vanishing_curse:
     - Проклятье_утраты
     durability:
@@ -751,15 +729,44 @@ modify:
     отменить действие. Введите &6remove&e, чтобы убрать строку'
   listLimit: '&eСписок не может быть больше &6[amount] &eзаписей.'
   commandEditInfoHover: '&eНажмите, чтобы вставить старый текст'
-warp:
-  list: '&e[pos]. &6[warpName] &f- &7[worldName] ([x]:[y]:[z])'
 teleportation:
   relocation: '!actionbar!&4Ваше местоположение телепортации было заблокировано. Вы
     были телепортированы в безопасное место.'
+econ:
+  noMoney: '&cУ вас не достаточно денег'
+  charged: '!actionbar!&fЗаряд: &6[amount]'
+  notEnoughMoney: '&cНедостаточно средств, требуется (&6[amount]&c)'
+  tooMuchMoney: '&cУ вас слишком много денег'
+  disabled: '&cНевозможно использовать эту команду, ибо поддержка экономики отключена'
+  commandCost: '&3Стоимость выполнения &6[cost] &2Нажмите, чтобы выполнить команду.'
+Selection:
+  SelectPoints: '&cВыделите две точки с помощью инструмента выделения: &6[tool]'
+  PrimaryPoint: '&eПервая &6точка выделения [point] &eвыбрана'
+  SecondaryPoint: '&eВторая &6точка выделения [point] &eвыбрана'
+  CoordsTop: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
+  CoordsBottom: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
+  Area: '&7[world] &f(&6[x1]:[y1]:[z1] &e[x2]:[y2]:[z2]&f)'
+Location:
+  Title: '&8Расположение игрока'
+  Killer: '&eУбийца: &6[killer]'
+  OneLiner: '&eПоложение: &6[location]'
+  DeathReason: '&eПричина смерти: &6[reason]'
+  Full: '&7[world] &f[x]&7:&f[y]&7:&f[z]'
+  World: '&eМир: &6[world]'
+  X: '&eX: &6[x]'
+  Y: '&eY: &6[y]'
+  Z: '&eZ: &6[z]'
+  Pitch: '&eВысота: &6[pitch]'
+  Yaw: '&eАзимут: &6[yaw]'
+  WorldNames:
+  - world-&2Мир
+  - world_nether-&2Ад
+  - world_the_end-&2Эндер-мир
+Locations: '&7Локация: '
+warp:
+  list: '&e[pos]. &6[warpName] &f- &7[worldName] ([x]:[y]:[z])'
 afk:
-  'on': '&6АФК'
   'off': '&7Играет'
-  left: '&6АФК &3| &6[playerDisplayName] &3больше не &6АФК'
   MayNotRespond: '&3Игрок &6AFK &3и может не ответить.'
   MayNotRespondStaff: '&eСотрудник сервера в AFK и может не отвечать. Попробуйте связаться
     с нами в группе VK или Discord'
@@ -783,23 +790,13 @@ Information:
   BadGameMode: '&cВы не можете сделать это в вашем текущем игровом режиме'
   BadArea: '&cВы не можете выполнить это действие в этой области'
   GameMode: '&eИгровой режим: &6[GameMode]'
-  GodMode: '&eРежим бога: &6[GodMode]'
   Flying: '&eПолет: &6[Flying]'
-  CanFly: '&eМожет летать: &6[CanFly]'
   Uuid: '&6[uuid]'
-  ip: '&eIP-адрес: &6[address]'
   FirstConnection: '&eДата регистрации: &6[time]'
   Lastseen: '&eПоследний заход: &6[time]'
   Onlinesince: '&eВ сети уже: &6[time]'
   Money: '&eБаланс: &6[money]'
   Group: '&eРанг: &6[group]'
-econ:
-  disabled: '&cНевозможно использовать эту команду, ибо поддержка экономики отключена'
-  noMoney: '&cУ вас не достаточно денег'
-  charged: '!actionbar!&fЗаряд: &6[amount]'
-  notEnoughMoney: '&cНедостаточно средств, требуется (&6[amount]&c)'
-  tooMuchMoney: '&cУ вас слишком много денег'
-  commandCost: '&3Стоимость выполнения &6[cost] &2Нажмите, чтобы выполнить команду.'
 Elytra:
   Speed: '&eСкорость: &6[speed]&eкм/ч'
   SpeedBoost: ' &a+ '
@@ -807,36 +804,11 @@ Elytra:
   CanUse: '&cУ вас нет разрешения, чтобы одеть элитры!'
   CantGlide: '&cИспользование элитр запрещено!'
   Charging: '&eЗаряд: &f[percentage]%'
-Selection:
-  SelectPoints: '&cВыделите две точки с помощью инструмента выделения: &6[tool]'
-  PrimaryPoint: '&eПервая &6точка выделения [point] &eвыбрана'
-  SecondaryPoint: '&eВторая &6точка выделения [point] &eвыбрана'
-  CoordsTop: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
-  CoordsBottom: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
-  Area: '&7[world] &f(&6[x1]:[y1]:[z1] &e[x2]:[y2]:[z2]&f)'
 NetherPortal:
   ToHigh: '&cПортал слишком большой, максимальная высота &6[max]&c!'
   ToWide: '&cПортал слишком широкий, максимальная ширина &6[max]&c!'
   Creation: '!actionbar!&6Создан портал &2[height]&6x&2[width]'
   Disabled: '&cСоздание портала отключено!'
-Location:
-  Title: '&8Расположение игрока'
-  Killer: '&eУбийца: &6[killer]'
-  OneLiner: '&eПоложение: &6[location]'
-  DeathReason: '&eПричина смерти: &6[reason]'
-  Full: '&7[world] &f[x]&7:&f[y]&7:&f[z]'
-  World: '&eМир: &6[world]'
-  X: '&eX: &6[x]'
-  Y: '&eY: &6[y]'
-  Z: '&eZ: &6[z]'
-  Pitch: '&eВысота: &6[pitch]'
-  Yaw: '&eАзимут: &6[yaw]'
-  # Mainly used in %cmi_user_world_formatted% placeholder
-  WorldNames:
-  - world-&2Мир
-  - world_nether-&2Ад
-  - world_the_end-&2Эндер-мир
-Locations: '&7Локация: '
 Ender:
   Title: '&7Открыть сундук эндера'
 Chat:
@@ -865,10 +837,6 @@ command:
   nocmd:
     help:
       info: '&eПоказывает все доступные команды'
-      args: ''
-  actionbarmsg:
-    help:
-      info: ''
       args: ''
   reload:
     help:
