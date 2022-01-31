@@ -52,6 +52,7 @@
 # <CC> performs command from console once
 # <CCI> performs command from console every time player clicks text
 # <URL> includes url
+
 info:
   # Use !prefix! in any locale line to automatically include this prefix
   prefix: '&e[&aCMI&e] '
@@ -158,6 +159,7 @@ info:
     flying: '&6Летает'
     notflying: '&6Не летает'
   Inventory:
+    Full: '&5Ваш инвентарь полон. Не могу добавить предмет'
     FullDrop: '&5Некоторые вещи не поместились. Они лежат на земле.'
   TimeNotRecorded: '&e-Нет записей-'
   years: '&e[years] &6л. '
@@ -212,17 +214,17 @@ info:
   CooldownOneTime: '&eЭту команду можно использовать только один раз!'
   WarmUp:
     canceled: '&cКоманда была отменена из-за вашего движения'
-    counter: '!actionbar!&6--> Подожди &e[time] &6сек. <--'
+    counter: '!actionbar!&6--> Подождите &e[time] &6сек. <--'
     DontMove: '!title!&6Не двигайся!!subtitle!&7Подожди &c[time] &7сек.'
     Boss:
       DontMove: '&4Не двигайся &7[autoTimeLeft] &4сек.!'
-      WaitFor: '&4Подожди &7[autoTimeLeft] &4сек.!'
+      WaitFor: '&4Подождите &7[autoTimeLeft] &4сек.!'
   Spawner: '&rСпавнер [type]'
   FailedSpawnerMine: '!actionbar!&cНе удалось добыть спавнер. &7[percent]% &cшанс
     выпадения'
   ClickSpawner: '!actionbar!&7[percent]% &eШанс выпадения'
   Elevator:
-    created: '&eТабличка-лифт успешно создана!'
+    created: '&eТабличка-лифт создана!'
   CantPlaceSpawner: '&eНе удалось разместить спавнер так близко к другому спавнеру.
     Минимальное расстояние: (&6[range]&e)'
   ChunksLoading: '&eДанные чанков мира все еще загружаются. Пожалуйста, подождите
@@ -371,11 +373,11 @@ info:
     FLOWER_FOREST: Цветочный лес
     FOREST: Лес
     FROZEN_OCEAN: Замерзший океан
-    FROZEN_PEAKS: Frozen peaks
+    FROZEN_PEAKS: Замерзшие вершины
     FROZEN_RIVER: Замерзшая река
     GROVE: Grove
     ICE_SPIKES: Ледяные шипы
-    JAGGED_PEAKS: Jagged peaks
+    JAGGED_PEAKS: Зубчатые пики
     JUNGLE: Джунгли
     LUKEWARM_OCEAN: Теплый океан
     LUSH_CAVES: Роскошные пещеры
@@ -383,22 +385,22 @@ info:
     MUSHROOM_FIELDS: Грибные поля
     NETHER_WASTES: Незер отходы
     OCEAN: Океан
-    OLD_GROWTH_BIRCH_FOREST: Old growth birch forest
-    OLD_GROWTH_PINE_TAIGA: Old growth pine taiga
-    OLD_GROWTH_SPRUCE_TAIGA: Old growth spruce taiga
+    OLD_GROWTH_BIRCH_FOREST: Старый березовый лес
+    OLD_GROWTH_PINE_TAIGA: Старая сосновая тайга
+    OLD_GROWTH_SPRUCE_TAIGA: Старая еловая тайга
     PLAINS: Равнины
     RIVER: Река
     SAVANNA: Саванна
     SAVANNA_PLATEAU: Плато саванны
     SMALL_END_ISLANDS: Малые энд острова
     SNOWY_BEACH: Снежный пляж
-    SNOWY_PLAINS: Snowy plains
-    SNOWY_SLOPES: Snowy slopes
+    SNOWY_PLAINS: Снежные равнины
+    SNOWY_SLOPES: Снежные склоны
     SNOWY_TAIGA: Снежная тайга
     SOUL_SAND_VALLEY: Долина песка души
-    SPARSE_JUNGLE: Sparse jungle
-    STONY_PEAKS: Stony peaks
-    STONY_SHORE: Stony shore
+    SPARSE_JUNGLE: Редкие джунгли
+    STONY_PEAKS: Каменистые вершины
+    STONY_SHORE: Каменистый берег
     SUNFLOWER_PLAINS: Подсолнечные равнины
     SWAMP: Болото
     TAIGA: Тайга
@@ -406,11 +408,11 @@ info:
     THE_VOID: Пустота
     WARM_OCEAN: Теплый океан
     WARPED_FOREST: Искаженный лес
-    WINDSWEPT_FOREST: Windswept forest
-    WINDSWEPT_GRAVELLY_HILLS: Windswept gravelly hills
-    WINDSWEPT_HILLS: Windswept hills
-    WINDSWEPT_SAVANNA: Windswept savanna
-    WOODED_BADLANDS: Wooded badlands
+    WINDSWEPT_FOREST: Ветреный лес
+    WINDSWEPT_GRAVELLY_HILLS: Обдуваемые ветром гравийные холмы
+    WINDSWEPT_HILLS: Ветреные холмы
+    WINDSWEPT_SAVANNA: Ветреная саванна
+    WOODED_BADLANDS: Лесистые бесплодные земли
   EntityType:
     area_effect_cloud: Облако эффектов
     armor_stand: Стойка для брони
@@ -679,6 +681,7 @@ direction:
   nw: Северо-Запад
 modify:
   middlemouse: '&2Средняя кнопка мыши для редактирования'
+  qButtonEdit: '&2Нажмите Q, чтобы изменить'
   newItem: '&7Поместите новый предмет сюда'
   newLine: '&2<Новая линия>'
   newLineHover: '&2Добавить новую строку'
@@ -720,11 +723,12 @@ modify:
   commandList: ' &e[command]  '
   emptyLine: '&7[Пустой список]'
   commandEdit: '&eРедактировать список'
+  nameAddInfo: '&eВведите новое имя. Введите &6cancel&e, чтобы отменить'
   lineAddInfo: '&eВведите новую строку. Введите &6cancel&e, чтобы отменить'
   commandAddInfo: '&eВведите новую команду. Введите &6cancel&e, чтобы отменить'
   commandAddInformationHover: "&e[playerName] может быть использован для получения\
     \ имени игрока \n&eЧтобы включить задержку в командах: \n&edelay! 5 \n&eПоддер\
-    живаютсяспециальные команды. Больше информации на \n&ehttps://www.zrips.net/cmi/commands/specialized/"
+    живаются специальные команды. Больше информации на \n&ehttps://www.zrips.net/cmi/commands/specialized/"
   commandEditInfo: '&eНажмите, чтобы вставить старый текст. Введите &6cancel&e, чтобы
     отменить действие. Введите &6remove&e, чтобы убрать строку'
   listLimit: '&eСписок не может быть больше &6[amount] &eзаписей.'
