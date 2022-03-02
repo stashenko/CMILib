@@ -123,7 +123,7 @@ info:
   confirmRedefine: '&eНажмите, чтобы подтвердить переопределение'
   cantEdit: '&eВы не можете редактировать это'
   wrongName: '&cНеправильное имя'
-  unknown: unknown
+  unknown: неизвестно
   invalidName: '&cНеверное имя'
   alreadyexist: '&4Это имя занято'
   dontexist: '&4Ничего не найдено под этим именем'
