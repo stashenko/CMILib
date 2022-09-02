@@ -908,6 +908,10 @@ command:
     help:
       info: '&eПоказывает все доступные команды'
       args: ''
+  clearcache:
+    help:
+      info: '&eClear cache'
+      args: ''
   reload:
     help:
       info: '&2Перезагрузка Конфигурации'
