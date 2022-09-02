@@ -787,7 +787,7 @@ modify:
   disabledColor: '&7'
   commandTitle: ' &e--- &6[name] &e---'
   commandList: ' &e[command]  '
-  emptyLine: '&7[Пустой список]'
+  emptyLine: '&7[Empty line]'
   commandEdit: '&eРедактировать список'
   nameAddInfo: '&eВведите новое имя. Введите &6cancel&e, чтобы отменить'
   lineAddInfo: '&eВведите новую строку. Введите &6cancel&e, чтобы отменить'
@@ -910,7 +910,7 @@ command:
       args: ''
   clearcache:
     help:
-      info: '&eClear cache'
+      info: '&eОчистить кэш'
       args: ''
   reload:
     help:
