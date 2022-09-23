@@ -910,7 +910,7 @@ command:
       args: ''
   clearcache:
     help:
-      info: '&eОчистить кеш'
+      info: '&eОчистить кэш'
       args: ''
   reload:
     help:
