@@ -216,6 +216,10 @@ info:
     Full: '&5Ваш инвентарь полон. Не могу добавить предмет'
     FullDrop: '&5Некоторые вещи не поместились. Они лежат на земле.'
   TimeNotRecorded: '&e-Нет записей-'
+  months: '&e[months] &6месяцев '
+  oneMonth: '&e[months] &6месяц '
+  weeks: '&e[weeks] &6недель '
+  oneWeek: '&e[weeks] &6неделя '
   years: '&e[years] &6л. '
   oneYear: '&e[years] &6г. '
   day: '&e[days] &6д. '
@@ -242,7 +246,7 @@ info:
   skullOwner: '!actionbar!&7Владелец:&r [playerName]'
   circle: '&3Круг'
   square: '&5Площадь'
-  clear: '&7Clear'
+  clear: '&7Чисто'
   protectedArea: '&cДанная территория защищена. Не удалось сделать это здесь.'
   valueToLong: '&eЗначение слишком высокое. Максимум: [max]'
   valueToShort: '&eЗначение слишком низкое. Минимум: [min]'
@@ -508,7 +512,7 @@ info:
     firework: Фейерверк
     fishing_hook: Рыболовный крюк
     fox: Лиса
-    frog: Frog
+    frog: Лягушка
     ghast: Гаст
     giant: Гигант
     glow_item_frame: Светящаяся рамка
@@ -568,7 +572,7 @@ info:
     squid: Спрут
     stray: Зимогор
     strider: Страйдер
-    tadpole: Tadpole
+    tadpole: Головастик
     thrown_exp_bottle: Брошенная бутылка с опытом
     trader_llama: Лама торговца
     trident: Трезубец
@@ -579,7 +583,7 @@ info:
     villager: Житель
     vindicator: Поборник
     wandering_trader: Странствующий торговец
-    warden: Warden
+    warden: Смотритель
     witch: Ведьма
     wither: Иссушитель
     wither_skeleton: Скелет-иссушитель
