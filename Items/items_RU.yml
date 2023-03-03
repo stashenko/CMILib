@@ -49,7 +49,7 @@ BIRCH_TRAPDOOR: Берёзовый люк
 BIRCH_WOOD: Берёза
 BLACK_BANNER: Чёрный флаг
 BLACK_BED: Чёрная кровать
-BLACK_CARPET: Black ковёр
+BLACK_CARPET: Чёрный ковёр
 BLACK_CONCRETE: Чёрный бетон
 BLACK_CONCRETE_POWDER: Чёрный сухой бетон
 BLACK_GLAZED_TERRACOTTA: Чёрная глазурованная керамика
@@ -635,7 +635,7 @@ PRISMARINE_SHARD: Осколок призмарина
 PRISMARINE_SLAB: Призмариновая плита
 PRISMARINE_STAIRS: Призмариновые ступеньки
 PUFFERFISH: Иглобрюх
-PUFFERFISH_BUCKET: PUFFERFISH_BUCKET
+PUFFERFISH_BUCKET: Ведро рыбы иглобрюха
 PUFFERFISH_SPAWN_EGG: Яйцо призыва иглобрюха
 PUMPKIN: Тыквенный пирог
 PUMPKIN_PIE: Тыквенный пирог
@@ -662,11 +662,11 @@ QUARTZ: Незер-кварц
 QUARTZ_BLOCK: Кварцевый блок
 QUARTZ_PILLAR: Кварцевая колонна
 QUARTZ_SLAB: Кварцевая плита
-QUARTZ_STAIRS: quartz_stairs
+QUARTZ_STAIRS: кварцевые лестницы
 RABBIT: Сырая крольчатина
 RABBIT_FOOT: Кроличья лапка
 RABBIT_HIDE: Кроличья шкурка
-RABBIT_SPAWN_EGG: rabbit_spawn_egg
+RABBIT_SPAWN_EGG: Яйцо призыва кролика
 RABBIT_STEW: Тушёный кролик
 RAIL: Рельсы
 REDSTONE: Редстоуновая пыль
