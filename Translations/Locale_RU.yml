@@ -109,7 +109,7 @@
 
 info:
   # Use !prefix! in any locale line to automatically include this prefix
-  prefix: '&e[&aCMIL&e] '
+  prefix: '&e[&aCMI&e] '
   NoPermission: '&cУ вас нет разрешения!'
   CantHavePermission: '&cУ вас нет разрешения на это!'
   WrongGroup: '&cВы не в той группе!'
@@ -406,7 +406,7 @@ info:
     melting: Переплавка
     poison: Отравление
     projectile: Снаряд
-    sonic_boom: ударная волна
+    sonic_boom: sonic boom
     starvation: Голод
     suffocation: Удушье
     suicide: Самоубийство
@@ -424,7 +424,7 @@ info:
     CUSTOM: Кастом
     DARK_FOREST: Темный лес
     DEEP_COLD_OCEAN: Глубокий холодный океан
-    DEEP_DARK: Глубокая темнота
+    DEEP_DARK: Deep dark
     DEEP_FROZEN_OCEAN: Глубоко замороженный океан
     DEEP_LUKEWARM_OCEAN: Глубокий теплый океан
     DEEP_OCEAN: Глубокий океан
@@ -439,14 +439,14 @@ info:
     FROZEN_OCEAN: Замерзший океан
     FROZEN_PEAKS: Замерзшие вершины
     FROZEN_RIVER: Замерзшая река
-    GROVE: Роща
+    GROVE: Grove
     ICE_SPIKES: Ледяные шипы
     JAGGED_PEAKS: Зубчатые пики
     JUNGLE: Джунгли
     LUKEWARM_OCEAN: Теплый океан
     LUSH_CAVES: Роскошные пещеры
-    MANGROVE_SWAMP: Мангровые болота
-    MEADOW: Луг
+    MANGROVE_SWAMP: Mangrove swamp
+    MEADOW: Meadow
     MUSHROOM_FIELDS: Грибные поля
     NETHER_WASTES: Незер отходы
     OCEAN: Океан
@@ -488,7 +488,6 @@ info:
     bee: Пчела
     blaze: Ифрит
     boat: Лодка
-    camel: Верблюд
     cat: Кот
     cave_spider: Пещерный паук
     chest_boat: Лодка сундук
@@ -649,7 +648,7 @@ info:
     multishot:
     - Мультишот
     swift_sneak:
-    - БЫСТРЫЙ_КРАЙК
+    - SWIFTSNEAK
     fire_aspect:
     - Заговор_огня
     channeling:
@@ -704,7 +703,7 @@ info:
     fire_resistance:
     - Огнестойкость
     water_breathing:
-    - Водное_дыхание
+    - Водное дыхание
     invisibility:
     - Невидимость
     blindness:
@@ -744,7 +743,7 @@ info:
     hero_of_the_village:
     - Герой_деревни
     darkness:
-    - Темнота
+    - Darkness
 direction:
   n: Север
   ne: Северо-Восток
@@ -926,6 +925,6 @@ command:
       info: '&2Перезагрузка Конфигурации'
       args: ''
     info:
-      feedback: '&2Конфигурация перезагружена! за [ms] мс'
-      failedConfig: '&4Не удалось загрузить файл конфигурации! Проверять ошибки!'
-      failedLocale: Не удалось загрузить файл конфигурации! Проверять ошибки!
+      feedback: '&2Конфигурация перезагружена! [ms] мс'
+      failedConfig: '&4Не удалось загрузить файл конфигурации! Проверять орфографию!'
+      failedLocale: Не удалось загрузить файл конфигурации! Проверять орфографию!
