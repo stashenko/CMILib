@@ -274,7 +274,7 @@ info:
     fly_into_wall: Полет в стене
     freeze: замерзание
     hot_floor: Магма блок
-    kill: kill
+    kill: убийство
     lava: Лава
     lightning: Молния
     magic: Магия
@@ -288,14 +288,14 @@ info:
     thorns: Шипы
     void: Пустота
     wither: Иссушитель
-    world_border: world border
+    world_border: граница мира
   Biomes:
     BADLANDS: Бесплодные земли
     BAMBOO_JUNGLE: Бамбуковые джунгли
     BASALT_DELTAS: Базальтовые дельты
     BEACH: Пляж
     BIRCH_FOREST: Березовый лес
-    CHERRY_GROVE: Cherry grove
+    CHERRY_GROVE: Вишневая роща
     COLD_OCEAN: Холодный океан
     CRIMSON_FOREST: Багровый лес
     CUSTOM: Кастом
@@ -364,9 +364,9 @@ info:
     bat: Летучая мышь
     bee: Пчела
     blaze: Ифрит
-    block_display: Block display
+    block_display: Блокировка отображения
     boat: Лодка
-    camel: Camel
+    camel: Верблюд
     cat: Кот
     cave_spider: Пещерный паук
     chest_boat: Лодка сундук
@@ -406,9 +406,9 @@ info:
     horse: Лошадь
     husk: Кадавр
     illusioner: Иллюзионист
-    interaction: Interaction
+    interaction: Взаимодействие
     iron_golem: Железный голем
-    item_display: Item display
+    item_display: Отображение предметов
     item_frame: Рамка
     leash_hitch: Поводок
     lightning: Молния
@@ -449,7 +449,7 @@ info:
     skeleton_horse: Лошадь-скелет
     slime: Слизнь
     small_fireball: Малый огненный шар
-    sniffer: Sniffer
+    sniffer: Нюхач
     snowball: Снежный шар
     snowman: Снеговик
     spectral_arrow: Спектральная стрелка
@@ -459,7 +459,7 @@ info:
     stray: Зимогор
     strider: Страйдер
     tadpole: Головастик
-    text_display: Text display
+    text_display: Текстовое отображение
     thrown_exp_bottle: Брошенная бутылка с опытом
     trader_llama: Лама торговца
     trident: Трезубец
