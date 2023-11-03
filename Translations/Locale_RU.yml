@@ -1,11 +1,11 @@
 
-# Full color code support and some variables
+# The phrases support full color (hex) code, and some variables.
 
-# Keep in mind that variables wont work for some lines, when it will for anothers :)
+# Keep in mind that some variables will not work for certain lines.
 
-# Just keep them where there are now and everything will be ok :)
+# Just keep them where there are now and everything will be okay :)
 
-# Some lines can have global variables set. For player who will be effected. In example /heal Zrips then Zrips data will be used
+# Some lines can have global variables set. For the player who will be affected. For example /heal Zrips then Zrips data will be used as variable
 
 # [serverName] to show server name
 
@@ -29,7 +29,7 @@
 
 # [suffix] to show target player suffix if possible
 
-# Sender is console or player who performs command. In example Zrips performs /heal Zhax then Zrips data will be used
+# Sender is console or player who performs the command. For example Zrips performs /heal Zhax then Zrips data will be used
 
 # [senderName] to show Sender player name
 
@@ -51,7 +51,7 @@
 
 # [senderSuffix] to show Sender player suffix if possible
 
-# Source is player which is being used for extra info. In example Zrips performs /tp Zhax Zrips then Zhax data will be used as its location is being taken for new player location
+# Source is player which is being used for extra info. For example Zrips performs /tp Zhax Zrips then Zhax data will be used as its location is being taken for new player location
 
 # [sourceName] to show source player name
 
@@ -75,21 +75,21 @@
 
 # ***********************************************
 
-# Some lines supports option to send them to custom places, like action bar, title, sub title or even create JSON/clickable messages
+# Some lines support the option to send them to custom places, like action bar, title, sub-title, or even create JSON/clickable messages
 
-# If line starts with !toast! then player will get toast message (advancement popup, only 1.12 and up). Some extra variables can be used to define type and icon. example: !toast! -t:goal -icon:paper Hello world!
+# If the line starts with !toast! then player will get toast message (advancement popup, only 1.12 and up). Some extra variables can be used to define type and icon. example: !toast! -t:goal -icon:paper Hello world!
 
-# If line starts with !actionbar! then player will get action bar message defined after this variable
+# If the line starts with !actionbar! then player will get action bar message defined after this variable
 
-# If line starts with !actionbar:[seconds]! then player will get action bar message for defined amount of time
+# If the line starts with !actionbar:[seconds]! then player will get action bar message for a defined amount of time
 
-# If line starts with !broadcast! then everyone will receive message. You can add extra !toast! !actionbar! or !title! to send message for everyone to specific place, in example !broadcast!!title!
+# If the line starts with !broadcast! then everyone will receive message. You can add extra !toast! !actionbar! or !title! to send message for everyone to specific place, in example !broadcast!!title!
 
-# If line starts with !customtext:[cTextName]! then custom text will be taken by name provided and shown for player. In case its used after !broadcast! then everyone who is online will get this custom text message
+# If the line starts with !customtext:[cTextName]! then custom text will be taken by name provided and shown for player. In case it is used after !broadcast! then everyone who is online will get this custom text message
 
-# If line starts with !title! then player will get title message defined after this variable, in addition it can contain !subtitle! which will add subtitle message
+# If the line starts with !title! then player will get title message defined after this variable, in addition it can contain !subtitle! which will add subtitle message
 
-# If line starts with !bosbar:[name]-[timer]! then player will get bossbar message defined after this variable, in addition you can define how long this message will be visible. You need to define bossbar name which can be anything you want, but lines with same name will override each other to prevent stacking
+# If the line starts with !bossbar:[name]-[timer]! then player will get bossbar message defined after this variable, in addition you can define how long this message will be visible. You need to define bossbar name which can be anything you want, but lines with same name will override each other to prevent stacking
 
 # To include clickable messages: <T>Text</T><H>Hover text</H><C>command</C><SC>Suggested text</SC>
 
@@ -255,133 +255,7 @@ info:
   valueToLong: '&eЗначение слишком высокое. Максимум: [max]'
   valueToShort: '&eЗначение слишком низкое. Минимум: [min]'
   pickIcon: '&8Выберите значок'
-  # Following locale lines got moved to CMI folder and will be removed in future updates from this file. If you want to modify those lines check CMI locale directory
-  Same: '&cНе удалось открыть собственный инвентарь для редактирования!'
-  cantLoginWithDifCap: '&cНе удалось войти под другим ником! Старый ник: &e[oldName]&c.
-    Текущий: &e[currentName]'
-  Searching: '&eПоиск данных игрока, пожалуйста, подождите, это может занять некоторое
-    время!'
-  NoCommandWhileSleeping: '&cНельзя выполнять команды во время сна!'
-  PurgeNotEnabled: '&cФункция очистки не включена в конфигурации!'
-  TeamManagementDisabled: '&7Эта функция будет иметь ограниченный функционал, в то
-    время как DisableTeamManagement установлена на true!'
-  NoGameMode: '&cПожалуйста, используйте значения 0/1/2/3 или Survival/Creative/Adventure/Spectator
-    или s/c/a/sp!'
-  NameChange: '&eИгрок &6[playerDisplayName] &eзашел на сервер, также известный как:
-    &6[namelist]'
-  Cooldowns: '&eЭта команда перезаряжается, подождите &6[time]'
-  specializedCooldowns: '&eДля этой команды действуют ограничения на использование,
-    пожалуйста, подождите &6[time]'
-  specializedRunning: '&eКоманда в процессе выполнения, подождите &6[time]'
-  CooldownOneTime: '&eЭту команду можно использовать только один раз!'
-  WarmUp:
-    canceled: '&cКоманда отменена из-за вашего движения'
-    counter: '!actionbar!&6--> Подождите &e[time] &6сек. <--'
-    DontMove: '!title!&6Не двигайся!!subtitle!&7Подожди &c[time] &7сек.'
-    Boss:
-      DontMove: '&4Не двигайся &7[autoTimeLeft] &4сек.!'
-      WaitFor: '&4Подождите &7[autoTimeLeft] &4сек.!'
   Spawner: '&rСпавнер [type]'
-  FailedSpawnerMine: '!actionbar!&cНе удалось добыть спавнер. &7[percent]% &cшанс
-    выпадения'
-  ClickSpawner: '!actionbar!&7[percent]% &eШанс выпадения'
-  Elevator:
-    created: '&eТабличка-лифт создана!'
-  CantPlaceSpawner: '&eНе удалось разместить спавнер так близко к другому спавнеру.
-    Минимальное расстояние: (&6[range]&e)'
-  ChunksLoading: '&eДанные чанков мира все еще загружаются. Пожалуйста, подождите
-    немного и попробуйте снова.'
-  CantUseNonEncrypted: '!actionbar!&cКоманды для этого предмета не зашифрованы. Не
-    удалось использовать их!'
-  CantDecode: '!actionbar!&cНе удалось декодировать сообщение/команду. Файл ключа
-    содержит неверный ключ для этой задачи. Сообщите об этом администрации сервера'
-  CantTeleport: '&eВы не можете телепортироваться, потому что у вас слишком много
-    ограниченных предметов. Прокрутите эту строку, чтобы увидеть максимально допустимое
-    количество предметов.'
-  BlackList: '&e[material] [amount] &6Максимум: [max]'
-  wrongPortal: '&cВы находитесь в недопустимой зоне'
-  ItemWillBreak: '!actionbar!&eВаш предмет (&6[itemName]&e) скоро сломается! &e[current]&6/&e[max]'
-  ArmorWillBreak: '!actionbar!&eВаш предмет [itemName] скоро сломается! &e[current]&6/&e[max]'
-  flyingToHigh: '&cВы не можете летать так высоко, максимальная высота &6[max]&c!'
-  specializedItemFail: '&cНе удалось определить требование к специализированному предмету
-    по значению: &7[value]'
-  sunSpeeding: Спят [count] из [total] игроков | [hour] часов | Ускорение [speed]X
-  sleepersRequired: '!actionbar!&f[sleeping] &7из &f[required] &7игроков требуется
-    для пропуска ночи'
-  sunSpeedingTitle: '&7[hour]'
-  skippingNight: '!title!&7Пропуск ночи'
-  sunSpeedingSubTitle: '&f[count]&7/&f[total] &7(&f[speed]X&7)'
-  repairConfirm: '&eНажмите, чтобы подтвердить починку предмета &7[items] &eза &7[cost]'
-  bookDate: '&7Написано в &f[date]'
-  maintenance: '&7Технический режим'
-  mapLimit: '&cНевозможно выйти за пределы 30 000 000 блоков'
-  startedEditingPainting: '&eВы включили режим редактирования картины. Нажмите на
-    любой другой блок, чтобы отменить.'
-  canceledEditingPainting: '&eВы отменили режим редактирования картины'
-  changedPainting: '!actionbar!&eКартина изменена на &6[name] &eс ID &6[id]'
-  noSpam: '!title!&cНе спамьте!'
-  noCmdSpam: '!title!&cНе спамьте командами!'
-  spamConsoleInform: '&cИгрок (&7[playerName]&c) спровоцировал (&7[rules]&c) чат фильтр:&r
-    [message]'
-  # This line can have extra variables: [totalUsers] [onlinePlayers]
-  FirstJoin: '&6[playerDisplayName] &3добро пожаловать на сервер!'
-  LogoutCustom: ' &6[playerDisplayName] &4покинул игру'
-  LoginCustom: ' &6[playerDisplayName] &2присоединился к игре'
-  deathlocation: '&cВы погибли: &7x:&e[x]&c, &7y:&e[y]&c, &7z:&e[z]&c.'
-  book:
-    exploit: '&cВы не можете создать книгу, содержащую более [amount] страниц.'
-  combat:
-    CantUseShulkerBox: '&cНельзя использовать шалкеры во время боя. Жди: [time]'
-    CantUseCommand: '!actionbar!&cНельзя использовать команды во время боя. Жди: [time]'
-    bossBarPvp: '&cРежим боя [autoTimeLeft]'
-    bossBarPve: '&2Режим боя [autoTimeLeft]'
-  noSchedule: '&cРасписание по этому имени не найдено'
-  totem:
-    cooldown: '&eЗадержка тотема: [time]'
-    warmup: '&eЭффект тотема: [time]'
-    cantConsume: '&eИспользование тотема невозможно из-за перезарядки'
-  InventorySave:
-    info: '&8Информация: &8[playerDisplayName]'
-    saved: '&e[time] &eИнвентарь сохранен с ID: &e[id]'
-    NoSavedInv: '&eУ этого игрока нет сохраненных инвентарей'
-    NoEntries: '&4Файл существует, но инвентарь не найден!'
-    CantFind: '&eНе удалось найти инвентарь с этим ID'
-    TopLine: '&e----------- &6Сохраненные инвентари игрока &6[playerDisplayName] &e-----------'
-    List: '&eID: &6[id]&e. &6[time]'
-    KillerSymbol: '&c ☠'
-    Click: '&eНажмите, чтобы проверить сохраненный инвентарь ([id])'
-    IdDontExist: '&4Этот ID сохранения не существует!'
-    Deleted: '&eСохраненный инвентарь успешно удален!'
-    Restored: '&eВы восстановили инвентарь игрока &e[sourcename] &eдля игрока &e[targetname]&e.'
-    GotRestored: '&eВаш инвентарь восстановлен из инвентаря &e[sourcename] &e[time]'
-    LoadForSelf: '&eЗагрузить этот инвентарь для себя'
-    LoadForOwner: '&eЗагрузить этот инвентарь для владельца'
-    NextInventory: '&eСледующий инвентарь'
-    PreviousInventory: '&eПредыдущий инвентарь'
-    Editable: '&eРежим редактирования включен'
-    NonEditable: '&eРежим редактирования отключен'
-  vanishSymbolOn: '&6[&7СКРЫТ&6]&r'
-  vanishSymbolOff: ''
-  afkSymbolOn: '&f☕'
-  afkSymbolOff: ''
-  beeinfo: '!actionbar!&7Уровень мёда: &e[level]&7/&e[maxlevel] &7Пчел внутри: &e[count]&7/&e[maxcount]'
-  pvp:
-    noGodDamage: '!actionbar!&cВы не можете нанести урон игрокам, будучи бессмертным'
-  pve:
-    noGodDamage: '!actionbar!&cВы не можете нанести урон мобам в режиме бога'
-  InvEmpty:
-    armor: '&eВаши слоты брони должны быть пустыми!'
-    hand: '&eВаша рука должна быть пустой!'
-    maininv: '&eВаш основной инвентарь должен быть пустым!'
-    maininvslots: '&eВаш основной инвентарь должен иметь как минимум &6[count] &eпустых
-      слотов!'
-    inv: '&eВаш инвентарь должен быть пустым!'
-    offhand: '&eВаша вторая рука должна быть пустой!'
-    quickbar: '&eВаш быстрый инвентарь должен быть пустым!'
-    quickbarslots: '&eВаш навбар должен иметь как минимум &6[count] &eпустых слотов!'
-    subinv: '&eВаш суб инвентарь должен быть пустым!'
-    subinvslots: '&eВаш суб инвентарь должен иметь как минимум &6[count] &eпустых
-      слотов!'
   DamageCause:
     block_explosion: Взрыв
     contact: Блокирование повреждений
@@ -400,6 +274,7 @@ info:
     fly_into_wall: Полет в стене
     freeze: замерзание
     hot_floor: Магма блок
+    kill: kill
     lava: Лава
     lightning: Молния
     magic: Магия
@@ -413,12 +288,14 @@ info:
     thorns: Шипы
     void: Пустота
     wither: Иссушитель
+    world_border: world border
   Biomes:
     BADLANDS: Бесплодные земли
     BAMBOO_JUNGLE: Бамбуковые джунгли
     BASALT_DELTAS: Базальтовые дельты
     BEACH: Пляж
     BIRCH_FOREST: Березовый лес
+    CHERRY_GROVE: Cherry grove
     COLD_OCEAN: Холодный океан
     CRIMSON_FOREST: Багровый лес
     CUSTOM: Кастом
@@ -487,7 +364,9 @@ info:
     bat: Летучая мышь
     bee: Пчела
     blaze: Ифрит
+    block_display: Block display
     boat: Лодка
+    camel: Camel
     cat: Кот
     cave_spider: Пещерный паук
     chest_boat: Лодка сундук
@@ -527,7 +406,9 @@ info:
     horse: Лошадь
     husk: Кадавр
     illusioner: Иллюзионист
+    interaction: Interaction
     iron_golem: Железный голем
+    item_display: Item display
     item_frame: Рамка
     leash_hitch: Поводок
     lightning: Молния
@@ -568,6 +449,7 @@ info:
     skeleton_horse: Лошадь-скелет
     slime: Слизнь
     small_fireball: Малый огненный шар
+    sniffer: Sniffer
     snowball: Снежный шар
     snowman: Снеговик
     spectral_arrow: Спектральная стрелка
@@ -577,6 +459,7 @@ info:
     stray: Зимогор
     strider: Страйдер
     tadpole: Головастик
+    text_display: Text display
     thrown_exp_bottle: Брошенная бутылка с опытом
     trader_llama: Лама торговца
     trident: Трезубец
@@ -815,8 +698,6 @@ econ:
   charged: '!actionbar!&fЗаряд: &6[amount]'
   notEnoughMoney: '&cНедостаточно средств, требуется (&6[amount]&c)'
   tooMuchMoney: '&cУ вас слишком много денег'
-  disabled: '&cНевозможно использовать эту команду. Поддержка экономики отключена!'
-  commandCost: '&3Стоимость выполнения &6[cost] &2Нажмите, чтобы выполнить команду.'
 Selection:
   SelectPoints: '&cВыделите две точки с помощью инструмента выделения: &6[tool]'
   PrimaryPoint: '&eПервая &6точка выделения [point] &eвыбрана'
@@ -841,68 +722,6 @@ Location:
   - world_nether-&2Ад
   - world_the_end-&2Эндер-мир
 Locations: '&7Локация: '
-warp:
-  list: '&e[pos]. &6[warpName] &f- &7[worldName] ([x]:[y]:[z])'
-afk:
-  'off': '&7Играет'
-  MayNotRespond: '&3Игрок &6AFK &3и может не ответить.'
-  MayNotRespondStaff: '&eСотрудник сервера в AFK и может не отвечать. Попробуйте связаться
-    с нами в группе VK или Discord'
-BossBar:
-  hpBar: '&f[victim] &e[current]&f/&e[max] &f(&c-[damage]&f)'
-Potion:
-  Effects: '&8Эффекты зелья'
-  List: '&e[PotionName] [PotionAmplifier] &eПродолжительность: &e[LeftDuration] &eсек'
-  NoPotions: '&eНет'
-Information:
-  Title: '&8Информация об игроке'
-  Health: '&eЗдоровье: &6[Health]/[maxHealth]'
-  Hunger: '&eГолод: &6[Hunger]'
-  Saturation: '&eНасыщение: &6[Saturation]'
-  Exp: '&eОпыт: &6[Exp]'
-  NotEnoughExp: '&eНедостаточно опыта: &6[Exp]'
-  NotEnoughExpNeed: '&eНедостаточно опыта: &6[Exp]/[need]'
-  tooMuchExp: '&eСлишком много опыта: &6[Exp]/[need]'
-  NotEnoughVotes: '&eНедостаточно голосов: &6[votes]'
-  TooMuchVotes: '&eСлишком много голосов: &6[votes]'
-  BadGameMode: '&cВы не можете сделать это в вашем текущем игровом режиме'
-  BadArea: '&cВы не можете выполнить это действие в этой области'
-  GameMode: '&eИгровой режим: &6[GameMode]'
-  Flying: '&eПолет: &6[Flying]'
-  Uuid: '&6[uuid]'
-  FirstConnection: '&eДата регистрации: &6[time]'
-  Lastseen: '&eПоследний заход: &6[time]'
-  Onlinesince: '&eВ сети уже: &6[time]'
-  Money: '&eБаланс: &6[money]'
-  Group: '&eРанг: &6[group]'
-Elytra:
-  Speed: '&eСкорость: &6[speed]&eкм/ч'
-  SpeedBoost: ' &a+ '
-  SpeedSuperBoost: ' &2+ '
-  CanUse: '&cУ вас нет разрешения, чтобы одеть элитры!'
-  CantGlide: '&cИспользование элитр запрещено!'
-  Charging: '&eЗаряд: &f[percentage]%'
-NetherPortal:
-  ToHigh: '&cПортал слишком большой, максимальная высота &6[max]&c!'
-  ToWide: '&cПортал слишком широкий, максимальная ширина &6[max]&c!'
-  Creation: '!actionbar!&6Создан портал &2[height]&6x&2[width]'
-  Disabled: '&cСоздание портала отключено!'
-Ender:
-  Title: '&7Открыть сундук эндера'
-Chat:
-  localPrefix: '&3[&6L&3]&r'
-  shoutPrefix: '&3[&6G&3]&r'
-  LocalNoOne: '!actionbar!&6Используйте &3&l! &6для &3[&6G&3] &6чата&3.'
-  shoutDeduction: '!actionbar!&6[amount] &6списано, &6за сообщение в &3[&6G&3] &6чат.'
-  # Use \n to add new line
-  publicHover: '&3Время отправки: &6%server_time_hh:mm:ss%'
-  privateHover: '&3Время отправки: &6%server_time_hh:mm:ss%'
-  staffHover: '&3Время отправки: &6%server_time_hh:mm:ss%'
-  helpopHover: '&3Время отправки: &6%server_time_hh:mm:ss%'
-  link: '&6[&7ССЫЛКА&6]'
-  item: '&6[%cmi_iteminhand_displayname%[amount]&6]'
-  itemAmount: ' x[amount]'
-  itemEmpty: '&7[Mighty fist]'
 command:
   help:
     output:
