@@ -330,7 +330,7 @@ GOLD_INGOT: Золотой слиток
 GOLD_NUGGET: Кусочек золота
 GOLD_ORE: Золотая руда
 GRANITE: Гранит
-GRASS: Трава
+SHORT_GRASS: Short Grass
 GRASS_BLOCK: Дёрн
 GRAVEL: Гравий
 GRAY_BANNER: Серый флаг
@@ -1285,7 +1285,7 @@ TADPOLE_SPAWN_EGG: Яйцо призыва головастика
 VERDANT_FROGLIGHT: Малахитовая квампа
 WARDEN_SPAWN_EGG: Яйцо призыва хранителя
 ACACIA_HANGING_SIGN: Acacia Hanging Sign
-ACACIA_WALL_HANGING_SIGN: Acacia Wall Hanging Sign
+ACACIA_WALL_HANGING_SIGN: Настенная вывеска из акации
 ANGLER_POTTERY_SHERD: Angler Pottery Sherd
 ARCHER_POTTERY_SHERD: Archer Pottery Sherd
 ARMS_UP_POTTERY_SHERD: Arms Up Pottery Sherd
@@ -1402,7 +1402,8 @@ VEX_ARMOR_TRIM_SMITHING_TEMPLATE: Vex Armor Trim Smithing Template
 WARD_ARMOR_TRIM_SMITHING_TEMPLATE: Ward Armor Trim Smithing Template
 WARPED_HANGING_SIGN: Warped Hanging Sign
 WARPED_WALL_HANGING_SIGN: Warped Wall Hanging Sign
-WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE: Wayfinder Armor Trim Smithing Template
-WILD_ARMOR_TRIM_SMITHING_TEMPLATE: Wild Armor Trim Smithing Template
-WITHER_SPAWN_EGG: Wither Spawn Egg
+WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE: Шаблон кузнечного дела для отделки брони Wayfinder
+WILD_ARMOR_TRIM_SMITHING_TEMPLATE: Шаблон кузнечного дела для отделки дикой брони
+WITHER_SPAWN_EGG: Яйцо призыва Иссушителя
 SIGN: Табличка
+GRASS: Трава
