@@ -248,8 +248,8 @@ info:
   pageCount: '&2[current]&7/&2[total]'
   pageCountHover: '&e[totalEntries] записей'
   skullOwner: '!actionbar!&7Владелец:&r [playerName]'
-  playerHeadName: '&eHead of &7[playerName]'
-  mobHeadName: '&eHead of &f[mobName]'
+  playerHeadName: '&eГолова игрока &7[playerName]'
+  mobHeadName: '&eГолова &f[mobName]'
   circle: '&3Круг'
   square: '&5Площадь'
   clear: '&7Чисто'
@@ -274,41 +274,41 @@ info:
     fire: Огонь
     fire_tick: Огонь
     fly_into_wall: Полет в стене
-    freeze: freeze
+    freeze: Заморозка
     hot_floor: Магма блок
-    kill: kill
+    kill: убийство
     lava: Лава
     lightning: Молния
     magic: Магия
     melting: Переплавка
     poison: Отравление
     projectile: Снаряд
-    sonic_boom: sonic boom
+    sonic_boom: ударная волна
     starvation: Голод
     suffocation: Удушье
     suicide: Самоубийство
     thorns: Шипы
     void: Пустота
     wither: Иссушитель
-    world_border: world border
+    world_border: граница мира
   Biomes:
     BADLANDS: Бесплодные земли
     BAMBOO_JUNGLE: Бамбуковые джунгли
     BASALT_DELTAS: Базальтовые дельты
     BEACH: Пляж
     BIRCH_FOREST: Березовый лес
-    CHERRY_GROVE: Cherry grove
+    CHERRY_GROVE: Вишневая роща
     COLD_OCEAN: Холодный океан
     CRIMSON_FOREST: Багровый лес
     CUSTOM: Кастом
     DARK_FOREST: Темный лес
     DEEP_COLD_OCEAN: Глубокий холодный океан
-    DEEP_DARK: Deep dark
+    DEEP_DARK: Глубокая тьма
     DEEP_FROZEN_OCEAN: Глубоко замороженный океан
     DEEP_LUKEWARM_OCEAN: Глубокий теплый океан
     DEEP_OCEAN: Глубокий океан
     DESERT: Пустыня
-    DRIPSTONE_CAVES: Dripstone caves
+    DRIPSTONE_CAVES: Капельные пещеры
     END_BARRENS: Конец пустоши
     END_HIGHLANDS: Конец нагорья
     END_MIDLANDS: Конец Мидлендс
@@ -316,35 +316,35 @@ info:
     FLOWER_FOREST: Цветочный лес
     FOREST: Лес
     FROZEN_OCEAN: Замерзший океан
-    FROZEN_PEAKS: Frozen peaks
+    FROZEN_PEAKS: Замерзшие вершины
     FROZEN_RIVER: Замерзшая река
     GROVE: Grove
     ICE_SPIKES: Ледяные шипы
-    JAGGED_PEAKS: Jagged peaks
+    JAGGED_PEAKS: Зубчатые пики
     JUNGLE: Джунгли
     LUKEWARM_OCEAN: Теплый океан
-    LUSH_CAVES: Lush caves
-    MANGROVE_SWAMP: Mangrove swamp
-    MEADOW: Meadow
+    LUSH_CAVES: Роскошные пещеры
+    MANGROVE_SWAMP: Мангровое болото
+    MEADOW: Луг
     MUSHROOM_FIELDS: Грибные поля
     NETHER_WASTES: Незер отходы
     OCEAN: Океан
-    OLD_GROWTH_BIRCH_FOREST: Old growth birch forest
-    OLD_GROWTH_PINE_TAIGA: Old growth pine taiga
-    OLD_GROWTH_SPRUCE_TAIGA: Old growth spruce taiga
+    OLD_GROWTH_BIRCH_FOREST: Старовозрастный березовый лес
+    OLD_GROWTH_PINE_TAIGA: Старовозрастная сосновая тайга.
+    OLD_GROWTH_SPRUCE_TAIGA: Старовозрастная еловая тайга
     PLAINS: Равнины
     RIVER: Река
     SAVANNA: Саванна
     SAVANNA_PLATEAU: Плато саванны
     SMALL_END_ISLANDS: Малые энд острова
     SNOWY_BEACH: Снежный пляж
-    SNOWY_PLAINS: Snowy plains
-    SNOWY_SLOPES: Snowy slopes
+    SNOWY_PLAINS: Снежные равнины
+    SNOWY_SLOPES: Снежные склоны
     SNOWY_TAIGA: Снежная тайга
     SOUL_SAND_VALLEY: Долина песка души
-    SPARSE_JUNGLE: Sparse jungle
-    STONY_PEAKS: Stony peaks
-    STONY_SHORE: Stony shore
+    SPARSE_JUNGLE: Редкие джунгли
+    STONY_PEAKS: Каменистые вершины
+    STONY_SHORE: Каменистый берег
     SUNFLOWER_PLAINS: Подсолнечные равнины
     SWAMP: Болото
     TAIGA: Тайга
@@ -352,27 +352,27 @@ info:
     THE_VOID: Пустота
     WARM_OCEAN: Теплый океан
     WARPED_FOREST: Искаженный лес
-    WINDSWEPT_FOREST: Windswept forest
-    WINDSWEPT_GRAVELLY_HILLS: Windswept gravelly hills
-    WINDSWEPT_HILLS: Windswept hills
-    WINDSWEPT_SAVANNA: Windswept savanna
-    WOODED_BADLANDS: Wooded badlands
+    WINDSWEPT_FOREST: Продуваемый всеми ветрами лес
+    WINDSWEPT_GRAVELLY_HILLS: Продуваемые ветрами гравийные холмы
+    WINDSWEPT_HILLS: Продуваемые всеми ветрами холмы
+    WINDSWEPT_SAVANNA: Продуваемая всеми ветрами саванна
+    WOODED_BADLANDS: Лесистые пустоши
   EntityType:
     allay: Allay
     area_effect_cloud: Облако эффектов
     armor_stand: Стойка для брони
     arrow: Стрела
-    axolotl: Axolotl
+    axolotl: Аксолотль
     bat: Летучая мышь
     bee: Пчела
     blaze: Ифрит
-    block_display: Block display
+    block_display: Блокировка отображения
     boat: Лодка
-    breeze: Breeze
-    camel: Camel
+    breeze: Ветер
+    camel: Верблюд
     cat: Кот
     cave_spider: Пещерный паук
-    chest_boat: Chest boat
+    chest_boat: Сундук-лодочка
     chicken: Курица
     cod: Треска
     cow: Корова
@@ -398,27 +398,27 @@ info:
     firework: Фейерверк
     fishing_hook: Рыболовный крюк
     fox: Лиса
-    frog: Frog
+    frog: Лягушка
     ghast: Гаст
     giant: Гигант
-    glow_item_frame: Glow item frame
-    glow_squid: Glow squid
+    glow_item_frame: Светящаяся рамка для предметов
+    glow_squid: Светящийся кальмар
     goat: Goat
     guardian: Страж
     hoglin: Хоглин
     horse: Лошадь
     husk: Кадавр
     illusioner: Иллюзионист
-    interaction: Interaction
+    interaction: Взаимодействие
     iron_golem: Железный голем
-    item_display: Item display
+    item_display: Отображение предметов
     item_frame: Рамка
     leash_hitch: Поводок
     lightning: Молния
     llama: Лама
     llama_spit: Плювок ламы
     magma_cube: Лавовый куб
-    marker: Marker
+    marker: Маркер
     minecart: Вагонетка
     minecart_chest: Грузовая вагонетка
     minecart_command: Командная вагонетка
@@ -452,7 +452,7 @@ info:
     skeleton_horse: Лошадь-скелет
     slime: Слизнь
     small_fireball: Малый огненный шар
-    sniffer: Sniffer
+    sniffer: Нюхач
     snowball: Снежный шар
     snowman: Снеговик
     spectral_arrow: Спектральная стрелка
@@ -461,8 +461,8 @@ info:
     squid: Спрут
     stray: Зимогор
     strider: Страйдер
-    tadpole: Tadpole
-    text_display: Text display
+    tadpole: Головастик
+    text_display: Текстовое отображение
     thrown_exp_bottle: Брошенная бутылка с опытом
     trader_llama: Лама торговца
     trident: Трезубец
@@ -473,8 +473,8 @@ info:
     villager: Житель
     vindicator: Поборник
     wandering_trader: Странствующий торговец
-    warden: Warden
-    wind_charge: Wind charge
+    warden: Смотритель
+    wind_charge: Ветровой заряд
     witch: Ведьма
     wither: Иссушитель
     wither_skeleton: Скелет-иссушитель
@@ -512,7 +512,7 @@ info:
     mending: Починка
     oxygen: Подводное_дыхание
     piercing: Пронзающая_стрела
-    swift_sneak: Swift_sneak
+    swift_sneak: Быстрая_скрытность
     protection_fall: Невисомость
     durability: Прочность
     damage_undead: Небесная_кара
