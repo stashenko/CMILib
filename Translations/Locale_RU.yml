@@ -1,57 +1,112 @@
+
 # The phrases support full color (hex) code, and some variables.
+
 # Keep in mind that some variables will not work for certain lines.
+
 # Just keep them where there are now and everything will be okay :)
+
 # Some lines can have global variables set. For the player who will be affected. For example /heal Zrips then Zrips data will be used as variable
+
 # [serverName] to show server name
+
 # [playerName] to show target player name
+
 # [playerDisplayName] to show target player display name
+
 # [lvl] to show target player level
+
 # [exp] to show target player total exp
+
 # [hp] to show target player health
+
 # [maxHp] to show target player max health
+
 # [hunger] to show target player hunger level
+
 # [gameMode] to show target player gamemode
+
 # [prefix] to show target player prefix if possible
+
 # [suffix] to show target player suffix if possible
+
 # Sender is console or player who performs the command. For example Zrips performs /heal Zhax then Zrips data will be used
+
 # [senderName] to show Sender player name
+
 # [senderDisplayName] to show Sender player display name
+
 # [senderLvl] to show Sender player level
+
 # [senderExp] to show Sender player total exp
+
 # [senderHp] to show Sender player health
+
 # [senderMaxHp] to show Sender player max health
+
 # [senderHunger] to show Sender player hunger level
+
 # [senderGameMode] to show Sender player gamemode
+
 # [senderPrefix] to show Sender player prefix if possible
+
 # [senderSuffix] to show Sender player suffix if possible
+
 # Source is player which is being used for extra info. For example Zrips performs /tp Zhax Zrips then Zhax data will be used as its location is being taken for new player location
+
 # [sourceName] to show source player name
+
 # [sourceDisplayName] to show source player display name
+
 # [sourceLvl] to show source player level
+
 # [sourceExp] to show source player total exp
+
 # [sourceHp] to show source player health
+
 # [sourceMaxHp] to show source player max health
+
 # [sourceHunger] to show source player hunger level
+
 # [sourceGameMode] to show source player gamemode
+
 # [sourcePrefix] to show source player prefix if possible
+
 # [sourceSuffix] to show source player suffix if possible
+
 # ***********************************************
+
 # Some lines support the option to send them to custom places, like action bar, title, sub-title, or even create JSON/clickable messages
+
 # If the line starts with !toast! then player will get toast message (advancement popup, only 1.12 and up). Some extra variables can be used to define type and icon. example: !toast! -t:goal -icon:paper Hello world!
+
 # If the line starts with !actionbar! then player will get action bar message defined after this variable
+
 # If the line starts with !actionbar:[seconds]! then player will get action bar message for a defined amount of time
+
 # If the line starts with !broadcast! then everyone will receive message. You can add extra !toast! !actionbar! or !title! to send message for everyone to specific place, in example !broadcast!!title!
+
 # If the line starts with !customtext:[cTextName]! then custom text will be taken by name provided and shown for player. In case it is used after !broadcast! then everyone who is online will get this custom text message
+
 # If the line starts with !title! then player will get title message defined after this variable, in addition it can contain !subtitle! which will add subtitle message
+
 # If the line starts with !bossbar:[name]-[timer]! then player will get bossbar message defined after this variable, in addition you can define how long this message will be visible. You need to define bossbar name which can be anything you want, but lines with same name will override each other to prevent stacking
+
 # To include clickable messages: <T>Text</T><H>Hover text</H><C>command</C><SC>Suggested text</SC>
+
 # <T> and </T> required, other is optional
+
 # Use /n to break line
+
 # To have more than one JSON message use <Next>
+
 # <C> performs command as a player who clicked
+
 # <CC> performs command from console once
+
 # <CCI> performs command from console every time player clicks text
+
 # <URL> includes url
+
 info:
   # Use !prefix! in any locale line to automatically include this prefix
   prefix: '&e[&aCMIL&e] '
@@ -193,6 +248,8 @@ info:
   pageCount: '&2[current]&7/&2[total]'
   pageCountHover: '&e[totalEntries] записей'
   skullOwner: '!actionbar!&7Владелец:&r [playerName]'
+  playerHeadName: '&eHead of &7[playerName]'
+  mobHeadName: '&eHead of &f[mobName]'
   circle: '&3Круг'
   square: '&5Площадь'
   clear: '&7Чисто'
@@ -217,41 +274,41 @@ info:
     fire: Огонь
     fire_tick: Огонь
     fly_into_wall: Полет в стене
+    freeze: freeze
     hot_floor: Магма блок
+    kill: kill
     lava: Лава
     lightning: Молния
     magic: Магия
     melting: Переплавка
     poison: Отравление
     projectile: Снаряд
+    sonic_boom: sonic boom
     starvation: Голод
     suffocation: Удушье
     suicide: Самоубийство
     thorns: Шипы
     void: Пустота
     wither: Иссушитель
+    world_border: world border
   Biomes:
     BADLANDS: Бесплодные земли
-    BADLANDS_PLATEAU: Badlands plateau
     BAMBOO_JUNGLE: Бамбуковые джунгли
-    BAMBOO_JUNGLE_HILLS: Bamboo jungle hills
     BASALT_DELTAS: Базальтовые дельты
     BEACH: Пляж
     BIRCH_FOREST: Березовый лес
-    BIRCH_FOREST_HILLS: Birch forest hills
+    CHERRY_GROVE: Cherry grove
     COLD_OCEAN: Холодный океан
     CRIMSON_FOREST: Багровый лес
     CUSTOM: Кастом
     DARK_FOREST: Темный лес
-    DARK_FOREST_HILLS: Dark forest hills
     DEEP_COLD_OCEAN: Глубокий холодный океан
+    DEEP_DARK: Deep dark
     DEEP_FROZEN_OCEAN: Глубоко замороженный океан
     DEEP_LUKEWARM_OCEAN: Глубокий теплый океан
     DEEP_OCEAN: Глубокий океан
-    DEEP_WARM_OCEAN: Deep warm ocean
     DESERT: Пустыня
-    DESERT_HILLS: Desert hills
-    DESERT_LAKES: Desert lakes
+    DRIPSTONE_CAVES: Dripstone caves
     END_BARRENS: Конец пустоши
     END_HIGHLANDS: Конец нагорья
     END_MIDLANDS: Конец Мидлендс
@@ -259,68 +316,63 @@ info:
     FLOWER_FOREST: Цветочный лес
     FOREST: Лес
     FROZEN_OCEAN: Замерзший океан
+    FROZEN_PEAKS: Frozen peaks
     FROZEN_RIVER: Замерзшая река
-    GIANT_SPRUCE_TAIGA: Giant spruce taiga
-    GIANT_SPRUCE_TAIGA_HILLS: Giant spruce taiga hills
-    GIANT_TREE_TAIGA: Giant tree taiga
-    GIANT_TREE_TAIGA_HILLS: Giant tree taiga hills
-    GRAVELLY_MOUNTAINS: Gravelly mountains
+    GROVE: Grove
     ICE_SPIKES: Ледяные шипы
+    JAGGED_PEAKS: Jagged peaks
     JUNGLE: Джунгли
-    JUNGLE_EDGE: Jungle edge
-    JUNGLE_HILLS: Jungle hills
     LUKEWARM_OCEAN: Теплый океан
-    MODIFIED_BADLANDS_PLATEAU: Modified badlands plateau
-    MODIFIED_GRAVELLY_MOUNTAINS: Modified gravelly mountains
-    MODIFIED_JUNGLE: Modified jungle
-    MODIFIED_JUNGLE_EDGE: Modified jungle edge
-    MODIFIED_WOODED_BADLANDS_PLATEAU: Modified wooded badlands plateau
-    MOUNTAINS: Mountains
-    MOUNTAIN_EDGE: Mountain edge
+    LUSH_CAVES: Lush caves
+    MANGROVE_SWAMP: Mangrove swamp
+    MEADOW: Meadow
     MUSHROOM_FIELDS: Грибные поля
-    MUSHROOM_FIELD_SHORE: Mushroom field shore
     NETHER_WASTES: Незер отходы
     OCEAN: Океан
+    OLD_GROWTH_BIRCH_FOREST: Old growth birch forest
+    OLD_GROWTH_PINE_TAIGA: Old growth pine taiga
+    OLD_GROWTH_SPRUCE_TAIGA: Old growth spruce taiga
     PLAINS: Равнины
     RIVER: Река
     SAVANNA: Саванна
     SAVANNA_PLATEAU: Плато саванны
-    SHATTERED_SAVANNA: Shattered savanna
-    SHATTERED_SAVANNA_PLATEAU: Shattered savanna plateau
     SMALL_END_ISLANDS: Малые энд острова
     SNOWY_BEACH: Снежный пляж
-    SNOWY_MOUNTAINS: Snowy mountains
+    SNOWY_PLAINS: Snowy plains
+    SNOWY_SLOPES: Snowy slopes
     SNOWY_TAIGA: Снежная тайга
-    SNOWY_TAIGA_HILLS: Snowy taiga hills
-    SNOWY_TAIGA_MOUNTAINS: Snowy taiga mountains
-    SNOWY_TUNDRA: Snowy tundra
     SOUL_SAND_VALLEY: Долина песка души
-    STONE_SHORE: Stone shore
+    SPARSE_JUNGLE: Sparse jungle
+    STONY_PEAKS: Stony peaks
+    STONY_SHORE: Stony shore
     SUNFLOWER_PLAINS: Подсолнечные равнины
     SWAMP: Болото
-    SWAMP_HILLS: Swamp hills
     TAIGA: Тайга
-    TAIGA_HILLS: Taiga hills
-    TAIGA_MOUNTAINS: Taiga mountains
-    TALL_BIRCH_FOREST: Tall birch forest
-    TALL_BIRCH_HILLS: Tall birch hills
     THE_END: Энд
     THE_VOID: Пустота
     WARM_OCEAN: Теплый океан
     WARPED_FOREST: Искаженный лес
-    WOODED_BADLANDS_PLATEAU: Wooded badlands plateau
-    WOODED_HILLS: Wooded hills
-    WOODED_MOUNTAINS: Wooded mountains
+    WINDSWEPT_FOREST: Windswept forest
+    WINDSWEPT_GRAVELLY_HILLS: Windswept gravelly hills
+    WINDSWEPT_HILLS: Windswept hills
+    WINDSWEPT_SAVANNA: Windswept savanna
+    WOODED_BADLANDS: Wooded badlands
   EntityType:
+    allay: Allay
     area_effect_cloud: Облако эффектов
     armor_stand: Стойка для брони
     arrow: Стрела
+    axolotl: Axolotl
     bat: Летучая мышь
     bee: Пчела
     blaze: Ифрит
+    block_display: Block display
     boat: Лодка
+    breeze: Breeze
+    camel: Camel
     cat: Кот
     cave_spider: Пещерный паук
+    chest_boat: Chest boat
     chicken: Курица
     cod: Треска
     cow: Корова
@@ -346,20 +398,27 @@ info:
     firework: Фейерверк
     fishing_hook: Рыболовный крюк
     fox: Лиса
+    frog: Frog
     ghast: Гаст
     giant: Гигант
+    glow_item_frame: Glow item frame
+    glow_squid: Glow squid
+    goat: Goat
     guardian: Страж
     hoglin: Хоглин
     horse: Лошадь
     husk: Кадавр
     illusioner: Иллюзионист
+    interaction: Interaction
     iron_golem: Железный голем
+    item_display: Item display
     item_frame: Рамка
     leash_hitch: Поводок
     lightning: Молния
     llama: Лама
     llama_spit: Плювок ламы
     magma_cube: Лавовый куб
+    marker: Marker
     minecart: Вагонетка
     minecart_chest: Грузовая вагонетка
     minecart_command: Командная вагонетка
@@ -393,6 +452,7 @@ info:
     skeleton_horse: Лошадь-скелет
     slime: Слизнь
     small_fireball: Малый огненный шар
+    sniffer: Sniffer
     snowball: Снежный шар
     snowman: Снеговик
     spectral_arrow: Спектральная стрелка
@@ -401,6 +461,8 @@ info:
     squid: Спрут
     stray: Зимогор
     strider: Страйдер
+    tadpole: Tadpole
+    text_display: Text display
     thrown_exp_bottle: Брошенная бутылка с опытом
     trader_llama: Лама торговца
     trident: Трезубец
@@ -411,6 +473,8 @@ info:
     villager: Житель
     vindicator: Поборник
     wandering_trader: Странствующий торговец
+    warden: Warden
+    wind_charge: Wind charge
     witch: Ведьма
     wither: Иссушитель
     wither_skeleton: Скелет-иссушитель
@@ -421,148 +485,114 @@ info:
     zombie_horse: Лошадь-зомби
     zombie_villager: Зомби-житель
     zombified_piglin: Зомби-пиглин
-  EnchantAliases:
-    protection_fire:
-    - Огнеупорность
-    damage_all:
-    - Острота
-    arrow_fire:
-    - Воспламенение
-    soul_speed:
-    - Скорость_души
-    water_worker:
-    - Подводник
-    arrow_knockback:
-    - Отбрасывание
-    loyalty:
-    - Верность
-    depth_strider:
-    - Подводная_ходьба
-    vanishing_curse:
-    - Проклятье_утраты
-    durability:
-    - Прочность
-    knockback:
-    - Отбрасывание
-    luck:
-    - Удача
-    binding_curse:
-    - Проклятие_несъёмности
-    loot_bonus_blocks:
-    - Удача
-    protection_environmental:
-    - Прочность
-    dig_speed:
-    - Эффективность
-    mending:
-    - Починка
-    frost_walker:
-    - Ледоход
-    lure:
-    - Приманка
-    loot_bonus_mobs:
-    - Добыча
-    piercing:
-    - Пронзающая_стрела
-    protection_explosions:
-    - Взрывоустойчивость
-    damage_undead:
-    - Небесная_кара
-    multishot:
-    - Мультишот
-    fire_aspect:
-    - Заговор_огня
-    channeling:
-    - Ченнелинг
-    sweeping_edge:
-    - Разящий_клинок
-    thorns:
-    - Шипы
-    damage_arthropods:
-    - Бич_членистоногих
-    oxygen:
-    - Подводное_дыхание
-    riptide:
-    - Тягун
-    silk_touch:
-    - Шёлковое_касание
-    quick_charge:
-    - Быстрая_перезарядка
-    protection_projectile:
-    - Защита_от_снарядов
-    impaling:
-    - Пронзатель
-    protection_fall:
-    - Невисомость
-    arrow_damage:
-    - Сила
-    arrow_infinite:
-    - Бесконечность
+  # Avoid adding color codes to the enchant name
+  EnchantNames:
+    dig_speed: Эффективность
+    loot_bonus_mobs: Добыча
+    silk_touch: Шёлковое_касание
+    quick_charge: Быстрая_перезарядка
+    soul_speed: Скорость_души
+    arrow_fire: Воспламенение
+    loot_bonus_blocks: Удача
+    multishot: Мультишот
+    water_worker: Подводник
+    channeling: Ченнелинг
+    loyalty: Верность
+    binding_curse: Проклятие_несъёмности
+    arrow_knockback: Отбрасывание
+    protection_projectile: Защита_от_снарядов
+    arrow_damage: Сила
+    damage_all: Острота
+    frost_walker: Ледоход
+    protection_fire: Огнеупорность
+    impaling: Пронзатель
+    luck: Удача
+    riptide: Тягун
+    protection_environmental: Прочность
+    mending: Починка
+    oxygen: Подводное_дыхание
+    piercing: Пронзающая_стрела
+    swift_sneak: Swift_sneak
+    protection_fall: Невисомость
+    durability: Прочность
+    damage_undead: Небесная_кара
+    lure: Приманка
+    fire_aspect: Заговор_огня
+    knockback: Отбрасывание
+    depth_strider: Подводная_ходьба
+    sweeping_edge: Разящий_клинок
+    arrow_infinite: Бесконечность
+    vanishing_curse: Проклятье_утраты
+    damage_arthropods: Бич_членистоногих
+    protection_explosions: Взрывоустойчивость
+    thorns: Шипы
   PotionEffectAliases:
-    speed:
-    - Скорость
-    slow:
-    - Замедление
-    fast_digging:
-    - Спешка
-    slow_digging:
-    - Утомление
-    increase_damage:
-    - Сила
-    heal:
-    - Исцеление
-    harm:
-    - Моментальный_урон
-    jump:
-    - Прыгучесть
-    confusion:
-    - Тошнота
-    regeneration:
-    - Регенерация
-    damage_resistance:
-    - Сопротивление
     fire_resistance:
     - Огнестойкость
     water_breathing:
     - Водное дыхание
-    invisibility:
-    - Невидимость
-    blindness:
-    - Слепота
-    night_vision:
-    - Ночное_зрение
-    hunger:
-    - Голод
-    weakness:
-    - Слабость
-    poison:
-    - Отравление
-    wither:
-    - Иссушение
-    health_boost:
-    - Прилив_сил
-    absorption:
-    - Поглощение
+    jump:
+    - Прыгучесть
     saturation:
     - Насыщенность
-    glowing:
-    - Свечение
-    levitation:
-    - Левитация
-    luck:
-    - Везение
-    unluck:
-    - Невезение
+    health_boost:
+    - Прилив_сил
+    night_vision:
+    - Ночное_зрение
+    weakness:
+    - Слабость
+    wither:
+    - Иссушение
+    slow_digging:
+    - Утомление
     slow_falling:
     - Плавное_падение
-    conduit_power:
-    - Сила_источника
-    dolphins_grace:
-    - Грация_дельфина
-    bad_omen:
-    - Дурное_знамение
+    luck:
+    - Везение
+    increase_damage:
+    - Сила
+    poison:
+    - Отравление
     hero_of_the_village:
     - Герой_деревни
+    unluck:
+    - Невезение
+    invisibility:
+    - Невидимость
+    absorption:
+    - Поглощение
+    slow:
+    - Замедление
+    fast_digging:
+    - Спешка
+    glowing:
+    - Свечение
+    bad_omen:
+    - Дурное_знамение
+    dolphins_grace:
+    - Грация_дельфина
+    levitation:
+    - Левитация
+    conduit_power:
+    - Сила_источника
+    blindness:
+    - Слепота
+    harm:
+    - Моментальный_урон
+    confusion:
+    - Тошнота
+    heal:
+    - Исцеление
+    regeneration:
+    - Регенерация
+    hunger:
+    - Голод
+    speed:
+    - Скорость
+    darkness:
+    - Darkness
+    damage_resistance:
+    - Сопротивление
 direction:
   n: Север
   ne: Северо-Восток
