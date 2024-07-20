@@ -360,6 +360,7 @@ info:
   EntityType:
     allay: Allay
     area_effect_cloud: Облако эффектов
+    armadillo: Armadillo
     armor_stand: Стойка для брони
     arrow: Стрела
     axolotl: Аксолотль
@@ -368,37 +369,42 @@ info:
     blaze: Ифрит
     block_display: Блокировка отображения
     boat: Лодка
+    bogged: Bogged
     breeze: Ветер
+    breeze_wind_charge: Breeze wind charge
     camel: Верблюд
     cat: Кот
     cave_spider: Пещерный паук
     chest_boat: Сундук-лодочка
+    chest_minecart: Chest minecart
     chicken: Курица
     cod: Треска
+    command_block_minecart: Command block minecart
     cow: Корова
     creeper: Крипер
     dolphin: Дельфин
     donkey: Осёл
     dragon_fireball: Огненный шар дракона
-    dropped_item: Выпавший предмет
     drowned: Утопленник
     egg: Яйцо
     elder_guardian: Древний страж
     enderman: Эндермен
     endermite: Эндермит
-    ender_crystal: Кристалл края
     ender_dragon: Дракон края
     ender_pearl: Жемчуг эндера
-    ender_signal: Сигнал эндера
+    end_crystal: End crystal
     evoker: Пробудитель
     evoker_fangs: Шипы пробудителя
+    experience_bottle: Experience bottle
     experience_orb: Шар опыта
+    eye_of_ender: Eye of ender
     falling_block: Падающий блок
     fireball: Огненный шар
-    firework: Фейерверк
-    fishing_hook: Рыболовный крюк
+    firework_rocket: Firework rocket
+    fishing_bobber: Fishing bobber
     fox: Лиса
     frog: Лягушка
+    furnace_minecart: Furnace minecart
     ghast: Гаст
     giant: Гигант
     glow_item_frame: Светящаяся рамка для предметов
@@ -406,29 +412,26 @@ info:
     goat: Goat
     guardian: Страж
     hoglin: Хоглин
+    hopper_minecart: Hopper minecart
     horse: Лошадь
     husk: Кадавр
     illusioner: Иллюзионист
     interaction: Взаимодействие
     iron_golem: Железный голем
+    item: Item
     item_display: Отображение предметов
     item_frame: Рамка
-    leash_hitch: Поводок
-    lightning: Молния
+    leash_knot: Leash knot
+    lightning_bolt: Lightning bolt
     llama: Лама
     llama_spit: Плювок ламы
     magma_cube: Лавовый куб
     marker: Маркер
     minecart: Вагонетка
-    minecart_chest: Грузовая вагонетка
-    minecart_command: Командная вагонетка
-    minecart_furnace: Самоходная вагонетка
-    minecart_hopper: Загрузочная вагонетка
-    minecart_mob_spawner: Вагонетка со спавнером
-    minecart_tnt: Вагонетка с динамитом
+    mooshroom: Mooshroom
     mule: Мул
-    mushroom_cow: Грибная корова
     ocelot: Оцелот
+    ominous_item_spawner: Ominous item spawner
     painting: Картина
     panda: Панда
     parrot: Попугай
@@ -439,7 +442,7 @@ info:
     pillager: Разбойник
     player: Игрок
     polar_bear: Белый медведь
-    primed_tnt: Заряженный динамит
+    potion: Potion
     pufferfish: Рыба фугу
     rabbit: Кролик
     ravager: Разоритель
@@ -454,16 +457,17 @@ info:
     small_fireball: Малый огненный шар
     sniffer: Нюхач
     snowball: Снежный шар
-    snowman: Снеговик
+    snow_golem: Snow golem
+    spawner_minecart: Spawner minecart
     spectral_arrow: Спектральная стрелка
     spider: Паук
-    splash_potion: Взрывное зелье
     squid: Спрут
     stray: Зимогор
     strider: Страйдер
     tadpole: Головастик
     text_display: Текстовое отображение
-    thrown_exp_bottle: Брошенная бутылка с опытом
+    tnt: Tnt
+    tnt_minecart: Tnt minecart
     trader_llama: Лама торговца
     trident: Трезубец
     tropical_fish: Тропическая рыба
@@ -488,111 +492,126 @@ info:
   # Avoid adding color codes to the enchant name
   EnchantNames:
     dig_speed: Эффективность
+    sweeping_edge: Разящий_клинок
     loot_bonus_mobs: Добыча
-    silk_touch: Шёлковое_касание
     quick_charge: Быстрая_перезарядка
+    silk_touch: Шёлковое_касание
     soul_speed: Скорость_души
+    density: Density
+    breach: Breach
     arrow_fire: Воспламенение
     loot_bonus_blocks: Удача
-    multishot: Мультишот
     water_worker: Подводник
+    multishot: Мультишот
     channeling: Ченнелинг
     loyalty: Верность
     binding_curse: Проклятие_несъёмности
     arrow_knockback: Отбрасывание
-    protection_projectile: Защита_от_снарядов
     arrow_damage: Сила
+    protection_projectile: Защита_от_снарядов
     damage_all: Острота
     frost_walker: Ледоход
     protection_fire: Огнеупорность
     impaling: Пронзатель
     luck: Удача
     riptide: Тягун
-    protection_environmental: Прочность
     mending: Починка
+    protection_environmental: Прочность
     oxygen: Подводное_дыхание
     piercing: Пронзающая_стрела
-    swift_sneak: Быстрая_скрытность
     protection_fall: Невисомость
+    swift_sneak: Быстрая_скрытность
     durability: Прочность
-    damage_undead: Небесная_кара
-    lure: Приманка
     fire_aspect: Заговор_огня
+    lure: Приманка
+    damage_undead: Небесная_кара
     knockback: Отбрасывание
     depth_strider: Подводная_ходьба
-    sweeping_edge: Разящий_клинок
+    wind_burst: Wind_burst
     arrow_infinite: Бесконечность
     vanishing_curse: Проклятье_утраты
     damage_arthropods: Бич_членистоногих
     protection_explosions: Взрывоустойчивость
     thorns: Шипы
   PotionEffectAliases:
-    fire_resistance:
-    - Огнестойкость
-    water_breathing:
-    - Водное дыхание
-    jump:
-    - Прыгучесть
-    saturation:
-    - Насыщенность
-    health_boost:
-    - Прилив_сил
-    night_vision:
-    - Ночное_зрение
-    weakness:
-    - Слабость
-    wither:
-    - Иссушение
-    slow_digging:
-    - Утомление
-    slow_falling:
-    - Плавное_падение
-    luck:
-    - Везение
-    increase_damage:
-    - Сила
-    poison:
-    - Отравление
-    hero_of_the_village:
-    - Герой_деревни
-    unluck:
-    - Невезение
+    instanthealth:
+    - Instant health
     invisibility:
     - Невидимость
-    absorption:
-    - Поглощение
-    slow:
-    - Замедление
-    fast_digging:
-    - Спешка
-    glowing:
-    - Свечение
-    bad_omen:
-    - Дурное_знамение
-    dolphins_grace:
-    - Грация_дельфина
-    levitation:
-    - Левитация
-    conduit_power:
-    - Сила_источника
+    waterbreathing:
+    - Water breathing
+    resistance:
+    - Resistance
+    unluck:
+    - Невезение
     blindness:
     - Слепота
-    harm:
-    - Моментальный_урон
-    confusion:
-    - Тошнота
-    heal:
-    - Исцеление
-    regeneration:
-    - Регенерация
+    haste:
+    - Haste
+    poison:
+    - Отравление
+    slowness:
+    - Slowness
     hunger:
     - Голод
+    slowfalling:
+    - Slow falling
+    weaving:
+    - Weaving
+    fireresistance:
+    - Fire resistance
+    saturation:
+    - Насыщенность
+    raidomen:
+    - Raid omen
+    jumpboost:
+    - Jump boost
+    dolphinsgrace:
+    - Dolphins grace
+    miningfatigue:
+    - Mining fatigue
+    healthboost:
+    - Health boost
+    regeneration:
+    - Регенерация
+    conduitpower:
+    - Conduit power
+    badomen:
+    - Bad omen
+    luck:
+    - Везение
     speed:
     - Скорость
+    trialomen:
+    - Trial omen
+    strength:
+    - Strength
     darkness:
     - Darkness
-    damage_resistance:
-    - Сопротивление
+    heroofthevillage:
+    - Hero of the village
+    levitation:
+    - Левитация
+    instantdamage:
+    - Instant damage
+    oozing:
+    - Oozing
+    weakness:
+    - Слабость
+    nausea:
+    - Nausea
+    windcharged:
+    - Wind charged
+    absorption:
+    - Поглощение
+    wither:
+    - Иссушение
+    glowing:
+    - Свечение
+    infested:
+    - Infested
+    nightvision:
+    - Night vision
 direction:
   n: Север
   ne: Северо-Восток
