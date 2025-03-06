@@ -1,110 +1,56 @@
-
 # The phrases support full color (hex) code, and some variables.
-
 # Keep in mind that some variables will not work for certain lines.
-
 # Just keep them where there are now and everything will be okay :)
-
 # Some lines can have global variables set. For the player who will be affected. For example /heal Zrips then Zrips data will be used as variable
-
 # [serverName] to show server name
-
 # [playerName] to show target player name
-
 # [playerDisplayName] to show target player display name
-
 # [lvl] to show target player level
-
 # [exp] to show target player total exp
-
 # [hp] to show target player health
-
 # [maxHp] to show target player max health
-
 # [hunger] to show target player hunger level
-
 # [gameMode] to show target player gamemode
-
 # [prefix] to show target player prefix if possible
-
 # [suffix] to show target player suffix if possible
-
 # Sender is console or player who performs the command. For example Zrips performs /heal Zhax then Zrips data will be used
-
 # [senderName] to show Sender player name
-
 # [senderDisplayName] to show Sender player display name
-
 # [senderLvl] to show Sender player level
-
 # [senderExp] to show Sender player total exp
-
 # [senderHp] to show Sender player health
-
 # [senderMaxHp] to show Sender player max health
-
 # [senderHunger] to show Sender player hunger level
-
 # [senderGameMode] to show Sender player gamemode
-
 # [senderPrefix] to show Sender player prefix if possible
-
 # [senderSuffix] to show Sender player suffix if possible
-
 # Source is player which is being used for extra info. For example Zrips performs /tp Zhax Zrips then Zhax data will be used as its location is being taken for new player location
-
 # [sourceName] to show source player name
-
 # [sourceDisplayName] to show source player display name
-
 # [sourceLvl] to show source player level
-
 # [sourceExp] to show source player total exp
-
 # [sourceHp] to show source player health
-
 # [sourceMaxHp] to show source player max health
-
 # [sourceHunger] to show source player hunger level
-
 # [sourceGameMode] to show source player gamemode
-
 # [sourcePrefix] to show source player prefix if possible
-
 # [sourceSuffix] to show source player suffix if possible
-
 # ***********************************************
-
 # Some lines support the option to send them to custom places, like action bar, title, sub-title, or even create JSON/clickable messages
-
 # If the line starts with !toast! then player will get toast message (advancement popup, only 1.12 and up). Some extra variables can be used to define type and icon. example: !toast! -t:goal -icon:paper Hello world!
-
 # If the line starts with !actionbar! then player will get action bar message defined after this variable
-
 # If the line starts with !actionbar:[seconds]! then player will get action bar message for a defined amount of time
-
 # If the line starts with !broadcast! then everyone will receive message. You can add extra !toast! !actionbar! or !title! to send message for everyone to specific place, in example !broadcast!!title!
-
 # If the line starts with !customtext:[cTextName]! then custom text will be taken by name provided and shown for player. In case it is used after !broadcast! then everyone who is online will get this custom text message
-
 # If the line starts with !title! then player will get title message defined after this variable, in addition it can contain !subtitle! which will add subtitle message
-
 # If the line starts with !bossbar:[name]-[timer]! then player will get bossbar message defined after this variable, in addition you can define how long this message will be visible. You need to define bossbar name which can be anything you want, but lines with same name will override each other to prevent stacking
-
 # To include clickable messages: <T>Text</T><H>Hover text</H><C>command</C><SC>Suggested text</SC>
-
 # <T> and </T> required, other is optional
-
 # Use /n to break line
-
 # To have more than one JSON message use <Next>
-
 # <C> performs command as a player who clicked
-
 # <CC> performs command from console once
-
 # <CCI> performs command from console every time player clicks text
-
 # <URL> includes url
 
 info:
@@ -248,7 +194,6 @@ info:
   pageCount: '&2[current]&7/&2[total]'
   pageCountHover: '&e[totalEntries] записей'
   skullOwner: '!actionbar!&7Владелец:&r [playerName]'
-  playerHeadName: '&eГолова игрока &7[playerName]'
   mobHeadName: '&eГолова &f[mobName]'
   circle: '&3Круг'
   square: '&5Площадь'
@@ -260,6 +205,7 @@ info:
   Spawner: '&rСпавнер [type]'
   DamageCause:
     block_explosion: Взрыв
+    campfire: campfire
     contact: Блокирование повреждений
     cramming: Переполнение
     custom: Неизвестно
@@ -291,97 +237,40 @@ info:
     void: Пустота
     wither: Иссушитель
     world_border: граница мира
-  Biomes:
-    BADLANDS: Бесплодные земли
-    BAMBOO_JUNGLE: Бамбуковые джунгли
-    BASALT_DELTAS: Базальтовые дельты
-    BEACH: Пляж
-    BIRCH_FOREST: Березовый лес
-    CHERRY_GROVE: Вишневая роща
-    COLD_OCEAN: Холодный океан
-    CRIMSON_FOREST: Багровый лес
-    CUSTOM: Кастом
-    DARK_FOREST: Темный лес
-    DEEP_COLD_OCEAN: Глубокий холодный океан
-    DEEP_DARK: Глубокая тьма
-    DEEP_FROZEN_OCEAN: Глубоко замороженный океан
-    DEEP_LUKEWARM_OCEAN: Глубокий теплый океан
-    DEEP_OCEAN: Глубокий океан
-    DESERT: Пустыня
-    DRIPSTONE_CAVES: Капельные пещеры
-    END_BARRENS: Конец пустоши
-    END_HIGHLANDS: Конец нагорья
-    END_MIDLANDS: Конец Мидлендс
-    ERODED_BADLANDS: Эродированные бесплодные земли
-    FLOWER_FOREST: Цветочный лес
-    FOREST: Лес
-    FROZEN_OCEAN: Замерзший океан
-    FROZEN_PEAKS: Замерзшие вершины
-    FROZEN_RIVER: Замерзшая река
-    GROVE: Grove
-    ICE_SPIKES: Ледяные шипы
-    JAGGED_PEAKS: Зубчатые пики
-    JUNGLE: Джунгли
-    LUKEWARM_OCEAN: Теплый океан
-    LUSH_CAVES: Роскошные пещеры
-    MANGROVE_SWAMP: Мангровое болото
-    MEADOW: Луг
-    MUSHROOM_FIELDS: Грибные поля
-    NETHER_WASTES: Незер отходы
-    OCEAN: Океан
-    OLD_GROWTH_BIRCH_FOREST: Старовозрастный березовый лес
-    OLD_GROWTH_PINE_TAIGA: Старовозрастная сосновая тайга.
-    OLD_GROWTH_SPRUCE_TAIGA: Старовозрастная еловая тайга
-    PLAINS: Равнины
-    RIVER: Река
-    SAVANNA: Саванна
-    SAVANNA_PLATEAU: Плато саванны
-    SMALL_END_ISLANDS: Малые энд острова
-    SNOWY_BEACH: Снежный пляж
-    SNOWY_PLAINS: Снежные равнины
-    SNOWY_SLOPES: Снежные склоны
-    SNOWY_TAIGA: Снежная тайга
-    SOUL_SAND_VALLEY: Долина песка души
-    SPARSE_JUNGLE: Редкие джунгли
-    STONY_PEAKS: Каменистые вершины
-    STONY_SHORE: Каменистый берег
-    SUNFLOWER_PLAINS: Подсолнечные равнины
-    SWAMP: Болото
-    TAIGA: Тайга
-    THE_END: Энд
-    THE_VOID: Пустота
-    WARM_OCEAN: Теплый океан
-    WARPED_FOREST: Искаженный лес
-    WINDSWEPT_FOREST: Продуваемый всеми ветрами лес
-    WINDSWEPT_GRAVELLY_HILLS: Продуваемые ветрами гравийные холмы
-    WINDSWEPT_HILLS: Продуваемые всеми ветрами холмы
-    WINDSWEPT_SAVANNA: Продуваемая всеми ветрами саванна
-    WOODED_BADLANDS: Лесистые пустоши
   EntityType:
+    acacia_boat: Acacia boat
+    acacia_chest_boat: Acacia chest boat
     allay: Allay
     area_effect_cloud: Облако эффектов
     armadillo: Armadillo
     armor_stand: Стойка для брони
     arrow: Стрела
     axolotl: Аксолотль
+    bamboo_chest_raft: Bamboo chest raft
+    bamboo_raft: Bamboo raft
     bat: Летучая мышь
     bee: Пчела
+    birch_boat: Birch boat
+    birch_chest_boat: Birch chest boat
     blaze: Ифрит
     block_display: Блокировка отображения
-    boat: Лодка
     bogged: Bogged
     breeze: Ветер
     breeze_wind_charge: Breeze wind charge
     camel: Верблюд
     cat: Кот
     cave_spider: Пещерный паук
-    chest_boat: Сундук-лодочка
+    cherry_boat: Cherry boat
+    cherry_chest_boat: Cherry chest boat
     chest_minecart: Chest minecart
     chicken: Курица
     cod: Треска
     command_block_minecart: Command block minecart
     cow: Корова
+    creaking: Creaking
     creeper: Крипер
+    dark_oak_boat: Dark oak boat
+    dark_oak_chest_boat: Dark oak chest boat
     dolphin: Дельфин
     donkey: Осёл
     dragon_fireball: Огненный шар дракона
@@ -421,18 +310,26 @@ info:
     item: Item
     item_display: Отображение предметов
     item_frame: Рамка
+    jungle_boat: Jungle boat
+    jungle_chest_boat: Jungle chest boat
     leash_knot: Leash knot
     lightning_bolt: Lightning bolt
     llama: Лама
     llama_spit: Плювок ламы
     magma_cube: Лавовый куб
+    mangrove_boat: Mangrove boat
+    mangrove_chest_boat: Mangrove chest boat
     marker: Маркер
     minecart: Вагонетка
     mooshroom: Mooshroom
     mule: Мул
+    oak_boat: Oak boat
+    oak_chest_boat: Oak chest boat
     ocelot: Оцелот
     ominous_item_spawner: Ominous item spawner
     painting: Картина
+    pale_oak_boat: Pale oak boat
+    pale_oak_chest_boat: Pale oak chest boat
     panda: Панда
     parrot: Попугай
     phantom: Фантом
@@ -461,6 +358,8 @@ info:
     spawner_minecart: Spawner minecart
     spectral_arrow: Спектральная стрелка
     spider: Паук
+    spruce_boat: Spruce boat
+    spruce_chest_boat: Spruce chest boat
     squid: Спрут
     stray: Зимогор
     strider: Страйдер
@@ -491,48 +390,48 @@ info:
     zombified_piglin: Зомби-пиглин
   # Avoid adding color codes to the enchant name
   EnchantNames:
-    dig_speed: Эффективность
-    sweeping_edge: Разящий_клинок
-    loot_bonus_mobs: Добыча
-    quick_charge: Быстрая_перезарядка
-    silk_touch: Шёлковое_касание
+    arrow_infinite: Бесконечность
     soul_speed: Скорость_души
-    density: Density
-    breach: Breach
-    arrow_fire: Воспламенение
-    loot_bonus_blocks: Удача
-    water_worker: Подводник
-    multishot: Мультишот
-    channeling: Ченнелинг
-    loyalty: Верность
-    binding_curse: Проклятие_несъёмности
-    arrow_knockback: Отбрасывание
-    arrow_damage: Сила
-    protection_projectile: Защита_от_снарядов
-    damage_all: Острота
-    frost_walker: Ледоход
-    protection_fire: Огнеупорность
-    impaling: Пронзатель
-    luck: Удача
-    riptide: Тягун
-    mending: Починка
     protection_environmental: Прочность
-    oxygen: Подводное_дыхание
+    mending: Починка
+    damage_undead: Небесная_кара
+    protection_explosions: Взрывоустойчивость
+    depth_strider: Подводная_ходьба
+    loot_bonus_mobs: Добыча
     piercing: Пронзающая_стрела
     protection_fall: Невисомость
-    swift_sneak: Быстрая_скрытность
-    durability: Прочность
-    fire_aspect: Заговор_огня
-    lure: Приманка
-    damage_undead: Небесная_кара
-    knockback: Отбрасывание
-    depth_strider: Подводная_ходьба
-    wind_burst: Wind_burst
-    arrow_infinite: Бесконечность
-    vanishing_curse: Проклятье_утраты
     damage_arthropods: Бич_членистоногих
-    protection_explosions: Взрывоустойчивость
+    multishot: Мультишот
+    arrow_fire: Воспламенение
+    damage_all: Острота
+    sweeping_edge: Разящий_клинок
+    breach: Breach
+    protection_fire: Огнеупорность
+    frost_walker: Ледоход
+    dig_speed: Эффективность
+    durability: Прочность
+    lure: Приманка
+    arrow_damage: Сила
+    swift_sneak: Быстрая_скрытность
+    oxygen: Подводное_дыхание
+    riptide: Тягун
+    arrow_knockback: Отбрасывание
+    fire_aspect: Заговор_огня
+    knockback: Отбрасывание
+    wind_burst: Wind_burst
     thorns: Шипы
+    water_worker: Подводник
+    quick_charge: Быстрая_перезарядка
+    binding_curse: Проклятие_несъёмности
+    channeling: Ченнелинг
+    impaling: Пронзатель
+    loyalty: Верность
+    vanishing_curse: Проклятье_утраты
+    loot_bonus_blocks: Удача
+    protection_projectile: Защита_от_снарядов
+    density: Density
+    luck: Удача
+    silk_touch: Шёлковое_касание
   PotionEffectAliases:
     instanthealth:
     - Instant health
