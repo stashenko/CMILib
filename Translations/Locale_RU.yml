@@ -205,7 +205,7 @@ info:
   Spawner: '&rСпавнер [type]'
   DamageCause:
     block_explosion: Взрыв
-    campfire: campfire
+    campfire: Костер
     contact: Блокирование повреждений
     cramming: Переполнение
     custom: Неизвестно
@@ -238,39 +238,39 @@ info:
     wither: Иссушитель
     world_border: граница мира
   EntityType:
-    acacia_boat: Acacia boat
-    acacia_chest_boat: Acacia chest boat
-    allay: Allay
+    acacia_boat: Лодка из акации
+    acacia_chest_boat: Лодка из акации с сундуком
+    allay: Тихоня
     area_effect_cloud: Облако эффектов
-    armadillo: Armadillo
+    armadillo: Броненосец
     armor_stand: Стойка для брони
     arrow: Стрела
     axolotl: Аксолотль
-    bamboo_chest_raft: Bamboo chest raft
-    bamboo_raft: Bamboo raft
+    bamboo_chest_raft: Бамбуковый плот с сундуком
+    bamboo_raft: Бамбуковый плот
     bat: Летучая мышь
     bee: Пчела
-    birch_boat: Birch boat
-    birch_chest_boat: Birch chest boat
+    birch_boat: Березовая лодка
+    birch_chest_boat: Березовая лодка с сундуком
     blaze: Ифрит
     block_display: Блокировка отображения
-    bogged: Bogged
+    bogged: Болотник
     breeze: Ветер
-    breeze_wind_charge: Breeze wind charge
+    breeze_wind_charge: Бризовый заряд
     camel: Верблюд
     cat: Кот
     cave_spider: Пещерный паук
-    cherry_boat: Cherry boat
-    cherry_chest_boat: Cherry chest boat
-    chest_minecart: Chest minecart
+    cherry_boat: Вишневая лодка
+    cherry_chest_boat: Вишневая лодка с сундуком
+    chest_minecart: Вагонетка с сундуком
     chicken: Курица
     cod: Треска
-    command_block_minecart: Command block minecart
+    command_block_minecart: Вагонетка с командным блоком
     cow: Корова
-    creaking: Creaking
+    creaking: Скрипун
     creeper: Крипер
-    dark_oak_boat: Dark oak boat
-    dark_oak_chest_boat: Dark oak chest boat
+    dark_oak_boat: Лодка из темного дуба
+    dark_oak_chest_boat: Лодка из темного дуба с сундуком
     dolphin: Дельфин
     donkey: Осёл
     dragon_fireball: Огненный шар дракона
@@ -281,27 +281,27 @@ info:
     endermite: Эндермит
     ender_dragon: Дракон края
     ender_pearl: Жемчуг эндера
-    end_crystal: End crystal
+    end_crystal: Кристал эндера
     evoker: Пробудитель
     evoker_fangs: Шипы пробудителя
-    experience_bottle: Experience bottle
+    experience_bottle: Бутылка опыта
     experience_orb: Шар опыта
-    eye_of_ender: Eye of ender
+    eye_of_ender: Глаз эндера
     falling_block: Падающий блок
     fireball: Огненный шар
-    firework_rocket: Firework rocket
-    fishing_bobber: Fishing bobber
+    firework_rocket: Ракета-фейерверк
+    fishing_bobber: Рыболовный поплавок
     fox: Лиса
     frog: Лягушка
-    furnace_minecart: Furnace minecart
+    furnace_minecart: Вагонетка с печкой
     ghast: Гаст
     giant: Гигант
     glow_item_frame: Светящаяся рамка для предметов
     glow_squid: Светящийся кальмар
-    goat: Goat
+    goat: Коза
     guardian: Страж
     hoglin: Хоглин
-    hopper_minecart: Hopper minecart
+    hopper_minecart: Вагонетка с воронкой
     horse: Лошадь
     husk: Кадавр
     illusioner: Иллюзионист
@@ -310,26 +310,26 @@ info:
     item: Item
     item_display: Отображение предметов
     item_frame: Рамка
-    jungle_boat: Jungle boat
-    jungle_chest_boat: Jungle chest boat
-    leash_knot: Leash knot
-    lightning_bolt: Lightning bolt
+    jungle_boat: Лодка из тропического дерева
+    jungle_chest_boat: Лодка из тропического дерева с сундуком
+    leash_knot: Поводочный узел
+    lightning_bolt: Молния
     llama: Лама
     llama_spit: Плювок ламы
     magma_cube: Лавовый куб
-    mangrove_boat: Mangrove boat
-    mangrove_chest_boat: Mangrove chest boat
+    mangrove_boat: Лодка из мангровых деревьев
+    mangrove_chest_boat: Лодка из мангровых деревьев с сундуком
     marker: Маркер
     minecart: Вагонетка
-    mooshroom: Mooshroom
+    mooshroom: Грибная корова
     mule: Мул
-    oak_boat: Oak boat
-    oak_chest_boat: Oak chest boat
+    oak_boat: Дубовая лодка
+    oak_chest_boat: Дубовая лодка с сундуком
     ocelot: Оцелот
-    ominous_item_spawner: Ominous item spawner
+    ominous_item_spawner: Зловещий спавнер предметов
     painting: Картина
-    pale_oak_boat: Pale oak boat
-    pale_oak_chest_boat: Pale oak chest boat
+    pale_oak_boat: Лодка из светлого дуба
+    pale_oak_chest_boat: Лодка из светлого дуба с сундуком
     panda: Панда
     parrot: Попугай
     phantom: Фантом
@@ -339,7 +339,7 @@ info:
     pillager: Разбойник
     player: Игрок
     polar_bear: Белый медведь
-    potion: Potion
+    potion: Зелье
     pufferfish: Рыба фугу
     rabbit: Кролик
     ravager: Разоритель
@@ -358,15 +358,15 @@ info:
     spawner_minecart: Spawner minecart
     spectral_arrow: Спектральная стрелка
     spider: Паук
-    spruce_boat: Spruce boat
-    spruce_chest_boat: Spruce chest boat
+    spruce_boat: Еловая лодка
+    spruce_chest_boat: Еловая лодка с сундуком
     squid: Спрут
     stray: Зимогор
     strider: Страйдер
     tadpole: Головастик
     text_display: Текстовое отображение
-    tnt: Tnt
-    tnt_minecart: Tnt minecart
+    tnt: ТНТ
+    tnt_minecart: Вагонетка с ТНТ
     trader_llama: Лама торговца
     trident: Трезубец
     tropical_fish: Тропическая рыба
@@ -429,7 +429,7 @@ info:
     vanishing_curse: Проклятье_утраты
     loot_bonus_blocks: Удача
     protection_projectile: Защита_от_снарядов
-    density: Density
+    density: Плотность
     luck: Удача
     silk_touch: Шёлковое_касание
   PotionEffectAliases:
