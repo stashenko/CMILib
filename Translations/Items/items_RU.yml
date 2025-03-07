@@ -1409,7 +1409,7 @@ MUSIC_DISC_CREATOR: Music Disc Creator
 MUSIC_DISC_CREATOR_MUSIC_BOX: Music Disc Creator Music Box
 MUSIC_DISC_PRECIPICE: Music Disc Precipice
 ARMADILLO_SCUTE: Armadillo Scute
-WOLF_ARMOR: Wolf Armor
+WOLF_ARMOR: Wolf Armadillo
 ARMADILLO_SPAWN_EGG: Armadillo Spawn Egg
 BOGGED_SPAWN_EGG: Bogged Spawn Egg
 BOLT_ARMOR_TRIM_SMITHING_TEMPLATE: Bolt Armor Trim Smithing Template
@@ -1419,69 +1419,126 @@ CHISELED_COPPER: Chiseled Copper
 CHISELED_TUFF: Chiseled Tuff
 CHISELED_TUFF_BRICKS: Chiseled Tuff Bricks
 COPPER_BULB: Copper Bulb
-COPPER_DOOR: Copper Door
-COPPER_GRATE: Copper Grate
-COPPER_TRAPDOOR: Copper Trapdoor
+COPPER_DOOR: Copper Дверь
+COPPER_GRATE: Медная решетка
+COPPER_TRAPDOOR: Медный люк
 CRAFTER: Crafter
-EXPOSED_CHISELED_COPPER: Exposed Chiseled Copper
-EXPOSED_COPPER_BULB: Exposed Copper Bulb
-EXPOSED_COPPER_DOOR: Exposed Copper Door
-EXPOSED_COPPER_GRATE: Exposed Copper Grate
-EXPOSED_COPPER_TRAPDOOR: Exposed Copper Trapdoor
-FLOW_ARMOR_TRIM_SMITHING_TEMPLATE: Flow Armor Trim Smithing Template
-FLOW_BANNER_PATTERN: Flow Banner Pattern
-FLOW_POTTERY_SHERD: Flow Pottery Sherd
-GUSTER_BANNER_PATTERN: Guster Banner Pattern
-GUSTER_POTTERY_SHERD: Guster Pottery Sherd
-HEAVY_CORE: Heavy Core
-MACE: Mace
-OMINOUS_BOTTLE: Ominous Bottle
-OMINOUS_TRIAL_KEY: Ominous Trial Key
-OXIDIZED_CHISELED_COPPER: Oxidized Chiseled Copper
-OXIDIZED_COPPER_BULB: Oxidized Copper Bulb
-OXIDIZED_COPPER_DOOR: Oxidized Copper Door
-OXIDIZED_COPPER_GRATE: Oxidized Copper Grate
-OXIDIZED_COPPER_TRAPDOOR: Oxidized Copper Trapdoor
-POLISHED_TUFF: Polished Tuff
-POLISHED_TUFF_SLAB: Polished Tuff Slab
-POLISHED_TUFF_STAIRS: Polished Tuff Stairs
-POLISHED_TUFF_WALL: Polished Tuff Wall
-SCRAPE_POTTERY_SHERD: Scrape Pottery Sherd
-TRIAL_KEY: Trial Key
+EXPOSED_CHISELED_COPPER: Открытая точеная медь
+EXPOSED_COPPER_BULB: Открытая медная колба
+EXPOSED_COPPER_DOOR: Открытая медная дверь
+EXPOSED_COPPER_GRATE: Открытая медная решетка
+EXPOSED_COPPER_TRAPDOOR: Открытая медная люк
+FLOW_ARMOR_TRIM_SMITHING_TEMPLATE: Шаблон кузнечного дела Flow Armor
+FLOW_BANNER_PATTERN: Узор баннера Flow
+FLOW_POTTERY_SHERD: Осколок керамики Flow
+GUSTER_BANNER_PATTERN: Узор баннера Guster
+GUSTER_POTTERY_SHERD: Осколок керамики Guster
+HEAVY_CORE: Тяжелое ядро
+MACE: Булава
+OMINOUS_BOTTLE: Зловещая бутылка
+OMINOUS_TRIAL_KEY: Зловещий пробный ключ
+OXIDIZED_CHISELED_COPPER: Окисленная точеная медь
+OXIDIZED_COPPER_BULB: Окисленная медная колба
+OXIDIZED_COPPER_DOOR: Окисленная медная дверь
+OXIDIZED_COPPER_GRATE: Окисленная медная решетка
+OXIDIZED_COPPER_TRAPDOOR: Окисленная медная дверь-люк
+POLISHED_TUFF: Полированный туф
+POLISHED_TUFF_SLAB: Полированная туфовая плита
+POLISHED_TUFF_STAIRS: Полированная туфовая лестница
+POLISHED_TUFF_WALL: Полированная туфовая стена
+SCRAPE_POTTERY_SHERD: Соскребать черепок керамики
+TRIAL_KEY: Испытание Ключ
 TRIAL_SPAWNER: Trial Spawner
-TUFF_BRICKS: Tuff Bricks
-TUFF_BRICK_SLAB: Tuff Brick Slab
-TUFF_BRICK_STAIRS: Tuff Brick Stairs
-TUFF_BRICK_WALL: Tuff Brick Wall
-TUFF_SLAB: Tuff Slab
-TUFF_STAIRS: Tuff Stairs
-TUFF_WALL: Tuff Wall
-VAULT: Vault
-WAXED_CHISELED_COPPER: Waxed Chiseled Copper
-WAXED_COPPER_BULB: Waxed Copper Bulb
-WAXED_COPPER_DOOR: Waxed Copper Door
-WAXED_COPPER_GRATE: Waxed Copper Grate
-WAXED_COPPER_TRAPDOOR: Waxed Copper Trapdoor
-WAXED_EXPOSED_CHISELED_COPPER: Waxed Exposed Chiseled Copper
-WAXED_EXPOSED_COPPER_BULB: Waxed Exposed Copper Bulb
-WAXED_EXPOSED_COPPER_DOOR: Waxed Exposed Copper Door
-WAXED_EXPOSED_COPPER_GRATE: Waxed Exposed Copper Grate
-WAXED_EXPOSED_COPPER_TRAPDOOR: Waxed Exposed Copper Trapdoor
-WAXED_OXIDIZED_CHISELED_COPPER: Waxed Oxidized Chiseled Copper
-WAXED_OXIDIZED_COPPER_BULB: Waxed Oxidized Copper Bulb
-WAXED_OXIDIZED_COPPER_DOOR: Waxed Oxidized Copper Door
-WAXED_OXIDIZED_COPPER_GRATE: Waxed Oxidized Copper Grate
-WAXED_OXIDIZED_COPPER_TRAPDOOR: Waxed Oxidized Copper Trapdoor
-WAXED_WEATHERED_CHISELED_COPPER: Waxed Weathered Chiseled Copper
-WAXED_WEATHERED_COPPER_BULB: Waxed Weathered Copper Bulb
-WAXED_WEATHERED_COPPER_DOOR: Waxed Weathered Copper Door
-WAXED_WEATHERED_COPPER_GRATE: Waxed Weathered Copper Grate
-WAXED_WEATHERED_COPPER_TRAPDOOR: Waxed Weathered Copper Trapdoor
-WEATHERED_CHISELED_COPPER: Weathered Chiseled Copper
-WEATHERED_COPPER_BULB: Weathered Copper Bulb
-WEATHERED_COPPER_DOOR: Weathered Copper Door
-WEATHERED_COPPER_GRATE: Weathered Copper Grate
-WEATHERED_COPPER_TRAPDOOR: Weathered Copper Trapdoor
-WIND_CHARGE: Wind Charge
+TUFF_BRICKS: Туфовые кирпичи
+TUFF_BRICK_SLAB: Плита из туфового кирпича
+TUFF_BRICK_STAIRS: Лестница из туфового кирпича
+TUFF_BRICK_WALL: Стена из туфового кирпича
+TUFF_SLAB: Плита из туфа
+TUFF_STAIRS: Лестница из туфа
+TUFF_WALL: Стена из туфа
+VAULT: Хранилище
+WAXED_CHISELED_COPPER: Вощеная точеная медь
+WAXED_COPPER_BULB: Вощеная медная колба
+WAXED_COPPER_DOOR: Вощеная медная дверь
+WAXED_COPPER_GRATE: Вощеная медная решетка
+WAXED_COPPER_TRAPDOOR: Вощеный медный люк
+WAXED_EXPOSED_CHISELED_COPPER: Вощеная открытая точеная Медь
+WAXED_EXPOSED_COPPER_BULB: вощеная открытая медная колба
+WAXED_EXPOSED_COPPER_DOOR: вощеная открытая медная дверца
+WAXED_EXPOSED_COPPER_GRATE: вощеная открытая медная решетка
+WAXED_EXPOSED_COPPER_TRAPDOOR: вощеный открытый медный люк
+WAXED_OXIDIZED_CHISELED_COPPER: вощеная оксидированная точеная медь
+WAXED_OXIDIZED_COPPER_BULB: вощеная оксидированная медная колба
+WAXED_OXIDIZED_COPPER_DOOR: вощеная оксидированная медная дверца
+WAXED_OXIDIZED_COPPER_GRATE: вощеная оксидированная медная решетка
+WAXED_OXIDIZED_COPPER_TRAPDOOR: вощеная оксидированная медь Люк
+WAXED_WEATHERED_CHISELED_COPPER: Вощеная выветренная точеная медь
+WAXED_WEATHERED_COPPER_BULB: Вощеная выветренная медная колба
+WAXED_WEATHERED_COPPER_DOOR: Вощеная выветренная медная дверь
+WAXED_WEATHERED_COPPER_GRATE: Вощеная выветренная медная решетка
+WAXED_WEATHERED_COPPER_TRAPDOOR: Вощеная выветренная медная дверь
+WEATHERED_CHISELED_COPPER: Выветренная точеная медь
+WEATHERED_COPPER_BULB: Выветренная медная колба
+WEATHERED_COPPER_DOOR: Выветренная медная дверь
+WEATHERED_COPPER_GRATE: Выветренная медная решетка
+WEATHERED_COPPER_TRAPDOOR: Выветренная медная дверь
+WIND_CHARGE: Ветер Charge
+BLACK_BUNDLE: Черный комплект
+BLUE_BUNDLE: Синий комплект
+WHITE_BUNDLE: Белый комплект
+YELLOW_BUNDLE: Желтый комплект
+BROWN_BUNDLE: Коричневый комплект
+CYAN_BUNDLE: Голубой комплект
+GRAY_BUNDLE: Серый комплект
+GREEN_BUNDLE: Зеленый комплект
+LIME_BUNDLE: Лаймовый комплект
+MAGENTA_BUNDLE: Пурпурный комплект
+ORANGE_BUNDLE: Оранжевый комплект
+LIGHT_BLUE_BUNDLE: Голубой комплект
+LIGHT_GRAY_BUNDLE: Светло-серый комплект
+PINK_BUNDLE: Розовый комплект
+PURPLE_BUNDLE: Фиолетовый комплект
+RED_BUNDLE: Красный комплект
+BORDURE_INDENTED_BANNER_PATTERN: Узор баннера с отступом в виде бордюра
+CREAKING_HEART: Скрип Сердце
+CREAKING_SPAWN_EGG: Скрипучее яйцо
+FIELD_MASONED_BANNER_PATTERN: Узор баннера из полевых мётов
+PALE_HANGING_MOSS: Бледный свисающий мох
+PALE_MOSS_BLOCK: Бледный блок мха
+PALE_MOSS_CARPET: Бледный ковер мха
+PALE_OAK_BOAT: Бледная лодка из дуба
+PALE_OAK_BUTTON: Кнопка из бледного дуба
+PALE_OAK_CHEST_BOAT: Бледная лодка-сундук из дуба
+PALE_OAK_DOOR: Бледная дверь из дуба
+PALE_OAK_FENCE: Бледный забор из дуба
+PALE_OAK_FENCE_GATE: Ворота из бледного дуба
+PALE_OAK_HANGING_SIGN: Висячая табличка из бледного дуба
+PALE_OAK_WALL_HANGING_SIGN: Настенное украшение из бледного дуба Знак
+PALE_OAK_WALL_SIGN: Настенный знак из бледного дуба
+PALE_OAK_LEAVES: Листья бледного дуба
+PALE_OAK_LOG: Бревно бледного дуба
+PALE_OAK_PLANKS: Планки бледного дуба
+PALE_OAK_PRESSURE_PLATE: Нажимная пластина из бледного дуба
+PALE_OAK_SAPLING: Саженец бледного дуба
+PALE_OAK_SIGN: Знак бледного дуба
+PALE_OAK_SLAB: Плита бледного дуба
+PALE_OAK_STAIRS: Лестница из бледного дуба
+PALE_OAK_TRAPDOOR: Люк из бледного дуба
+PALE_OAK_WOOD: Древесина бледного дуба
+POTTED_PALE_OAK_SAPLING: Саженец бледного дуба в горшке
+STRIPPED_PALE_OAK_LOG: Обрезной бледный дуб Бревно
+STRIPPED_PALE_OAK_WOOD: Обработанная древесина бледного дуба
+CHISELED_RESIN_BRICKS: Обработанные смоляные кирпичи
+CLOSED_EYEBLOSSOM: Закрытый глазок
+OPEN_EYEBLOSSOM: Открытый глазок
+POTTED_CLOSED_EYEBLOSSOM: Закрытый глазок в горшке
+POTTED_OPEN_EYEBLOSSOM: Открытый глазок в горшке
+RESIN_BLOCK: Блок из смолы
+RESIN_BRICK: Кирпич из смолы
+RESIN_BRICKS: Кирпич из смолы
+RESIN_BRICK_SLAB: Плита из кирпича из смолы
+RESIN_BRICK_STAIRS: Лестница из кирпича из смолы
+RESIN_BRICK_WALL: Стена из кирпича из смолы
+RESIN_CLUMP: Смоляной комок
 SIGN: Табличка
 GRASS: Трава
